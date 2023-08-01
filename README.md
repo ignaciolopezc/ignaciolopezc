@@ -1,4 +1,24 @@
-### Hi there 👋
+# Hola mi nombre es Ignacio López Campos 👋
+
+### Consultor RPA y Developer Fullstack
+
+![](/img/banner.png)
+
+Soy Consultor RPA y ahora integrandome al desarrollo de software Fullstack
+
+Me titulado de Ingeniería en Informática con más de 12 años de experiencia en consultoría e implementación de software.
+
+Principalmente me desempeño como Consultor RPA con más de 3 años de experiencia en 3 de las principales herramientas del mercado.
+
+![img](/icons/AA360_5.png)
+
+gran experiencia en la implementación de modelos de negocio de presupuesto y consolidación con la plataforma SAP BPC generando reportes e indicadores de control para distintos procesos.
+
+- ⚡ Web Scraping ...
+- ⚡ Paginas desarrolladas ...
+- ⚡ Cursos ...
+- ⚡ Redes Sociales ... - LinkedIn - Pagina Web - GitHub
+- ⚡ Web Scraping ...
 
 <!--
 **ignaciolopezc/ignaciolopezc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
