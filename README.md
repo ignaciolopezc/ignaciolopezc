@@ -2,7 +2,7 @@
 
 ### Consultor RPA y Developer Fullstack
 
-![](/img/banner.png)
+![https://github.com/ignaciolopezc](/img/banner.png)
 
 Soy Consultor RPA y ahora integrandome al desarrollo de software Fullstack
 
@@ -10,15 +10,10 @@ Me titulado de Ingeniería en Informática con más de 12 años de experiencia e
 
 Principalmente me desempeño como Consultor RPA con más de 3 años de experiencia en 3 de las principales herramientas del mercado.
 
-nacho
+<img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/AA360.png" width="300" height="200" alt="Automation Anywhere" />
 
-![https://github.com/ignaciolopezc](https://github.com/ignaciolopezc/ignaciolopezc/blob/main/AA360_5.png)
-
-nacho
-
-<img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/AA360_5.png" alt="github" />
-
-<!-- ![img](/icons/AA360_5.png) -->
+<img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/power_automate.png" width="300" height="200" alt="Power Automate" />
+<img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/uipath.png" width="300" height="200" alt="UiPath" />
 
 gran experiencia en la implementación de modelos de negocio de presupuesto y consolidación con la plataforma SAP BPC generando reportes e indicadores de control para distintos procesos.
 
