@@ -19,6 +19,7 @@ Consultor RPA y Developer Fullstack | gran experiencia en la implementación de 
 [![INSTAGRAM](https://img.shields.io/badge/Instagram-@nacho_mlot-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=101010)](https://www.instagram.com/nacho_mlot/)
 [![FACEBOOK](https://img.shields.io/badge/Facebook-ignaciolopez-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=101010)](https://www.facebook.com/ignacio.lopez.355)
 [![DISCORD](https://img.shields.io/badge/Discord-mlotn5-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=101010)](https://discordapp.com/users/846197921766703134)
+[![GMAIL](https://img.shields.io/badge/Gmail-ignaciolopezc@gmail.com-D14836?style=for-the-badge&logo=Gmail&logoColor=white&labelColor=101010)]()
 
 <!-- [![GITHUBPAGE](https://img.shields.io/badge/github_PAGES-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/ignaciolopezc) -->
 
