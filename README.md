@@ -4,6 +4,21 @@
 
 Soy **Consultor RPA** y ahora integrandome al desarrollo de software Fullstack | Titulado de Ingeniería en Informática con más de **12 años** de experiencia en consultoría e implementación de software. | Principalmente me desempeño como Consultor RPA con más de 3 años de experiencia en **3 años** de las principales herramientas del mercado.
 
+<table border-style: none;>
+<tr>
+    <td>
+        <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa.png" width="313" height="129" alt="Automation Anywhere" />
+    </td>
+    <td>
+        <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/pp.png" width="313" height="127" alt="Power Automate" />    
+    </td>
+    <td>
+        <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/uipath.png" width="313" height="105" alt="UiPath" />    
+    </td>
+</tr>
+</table>
+
+<br><br>
 <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa.png" width="313" height="129" alt="Automation Anywhere" />
 <br>
 <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/pp.png" width="313" height="127" alt="Power Automate" />
@@ -87,7 +102,7 @@ Consultor RPA y Developer Fullstack | gran experiencia en la implementación de 
 <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
 </h2></p><br><br>
 
-<table>
+<table border-style: none;>
 <tr>
     <td><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ignaciolopezc&show_icons=true&locale=en&layout=compact" height="190" alt="ignaciolopezc" /></td>
     <td><img align="center" src="https://github-readme-stats.vercel.app/api?username=ignaciolopezc&show_icons=true&locale=en" height="190" alt="ignaciolopezc" /></td>
