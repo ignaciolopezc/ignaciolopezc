@@ -1,26 +1,28 @@
-<h1 align="center">Hola 👋, soy <b>Ignacio López Campos<b></h1>
-
 ![https://github.com/ignaciolopezc](/img/banner.png)
 
+<h1 align="center">Hola 👋, soy <b>Ignacio López Campos<b></h1>
 Soy **Consultor RPA** y ahora integrandome al desarrollo de software Fullstack | Titulado de Ingeniería en Informática con más de **12 años** de experiencia en consultoría e implementación de software. | Principalmente me desempeño como Consultor RPA con más de 3 años de experiencia en **3 años** de las principales herramientas del mercado.
 
 <div align="center">
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa.png" width="219" height="90" alt="Automation Anywhere" />
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/pp.png" width="219" height="88" alt="Power Automate" />
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/uipath.png" width="219" height="73" alt="UiPath" />
-</div>
+</div><br>
 
 Consultor RPA y Developer Fullstack | gran experiencia en la implementación de modelos de negocio de presupuesto y consolidación con la plataforma SAP BPC generando reportes e indicadores de control para distintos procesos.
 
 ## Encuéntrame en:
 
-[![LINKEDIN](https://img.shields.io/badge/LinkedIn-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](www.linkedin.com/in/ignaciolopezcampos)
+[![LINKEDIN](https://img.shields.io/badge/LinkedIn-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/ignaciolopezcampos/)
 [![WEB](https://img.shields.io/badge/WEB-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=CLion&logoColor=white&labelColor=101010)](https://ignaciolopezcampos.cl/)
 [![GITHUB](https://img.shields.io/badge/github-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/ignaciolopezc)
-[![GITHUBPAGE](https://img.shields.io/badge/github_PAGES-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/ignaciolopezc)
 [![INSTAGRAM](https://img.shields.io/badge/Instagram-@nacho_mlot-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=101010)](https://www.instagram.com/nacho_mlot/)
 [![FACEBOOK](https://img.shields.io/badge/Facebook-ignaciolopez-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=101010)](https://www.facebook.com/ignacio.lopez.355)
-[![DISCORD](https://img.shields.io/badge/Discord-mouredev-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=101010)](discordapp.com/users/846197921766703134)
+[![DISCORD](https://img.shields.io/badge/Discord-mlotn5-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=101010)](https://discordapp.com/users/846197921766703134)
+
+<!-- [![GITHUBPAGE](https://img.shields.io/badge/github_PAGES-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/ignaciolopezc) -->
+
+<h1 align="center"><b>Proyectos<b></h1>
 
 - 👨‍💻 All of my projects are available at [www.ignaciolopezcampos.com](www.ignaciolopezcampos.com)
 - 📫 How to reach me **Ignaciolopezc@gmail.com**
@@ -36,21 +38,7 @@ Consultor RPA y Developer Fullstack | gran experiencia en la implementación de 
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
-- 🐕 mencionar a mlot
-
-<h1 align="center"><b>Proyectos<b></h1>
-
-1. nombre del proyecto
-
-- 🔭 I’m currently working on [proyecto 1](link de proyecto)
-
-2. nombre del proyecto
-
-- 🔭 I’m currently working on [proyecto 1](link de proyecto)
-
-3. nombre del proyecto
-
-- 🔭 I’m currently working on [proyecto 1](link de proyecto)<br><br>
+- 🐕 mencionar a mlot<br><br>
 
 ## Tecnologías:
 
