@@ -4,10 +4,8 @@
 
 Soy **Consultor RPA** y ahora integrandome al desarrollo de software Fullstack | Titulado de Ingeniería en Informática con más de **12 años** de experiencia en consultoría e implementación de software. | Principalmente me desempeño como Consultor RPA con más de 3 años de experiencia en **3 años** de las principales herramientas del mercado.
 
-| <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa.png" width="219" height="90" alt="Automation Anywhere" /> | <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/pp.png" width="219" height="88" alt="Power Automate" /> | <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/uipath.png" width="219" height="72" alt="UiPath" /> |
-| ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-
-<table class="noBorder">
+<p align="center">
+<table>
 <tr>
     <td>
         <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa.png" width="219" height="90" alt="Automation Anywhere" />
@@ -20,6 +18,7 @@ Soy **Consultor RPA** y ahora integrandome al desarrollo de software Fullstack |
     </td>
 </tr>
 </table>
+</p>
 
 Consultor RPA y Developer Fullstack | gran experiencia en la implementación de modelos de negocio de presupuesto y consolidación con la plataforma SAP BPC generando reportes e indicadores de control para distintos procesos.
 
@@ -111,6 +110,7 @@ Consultor RPA y Developer Fullstack | gran experiencia en la implementación de 
 
 <br><br>
 
+<p align="center">
 <table>
 <tr style="border-collapse: collapse; border: none;">
     <td><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ignaciolopezc&show_icons=true&locale=en&layout=compact" height="190" alt="ignaciolopezc" /></td>
@@ -118,6 +118,7 @@ Consultor RPA y Developer Fullstack | gran experiencia en la implementación de 
     <td><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ignaciolopezc&" height="190" alt="ignaciolopezc" /></td>
 </tr>
 </table>
+</p>
 
 #
 
