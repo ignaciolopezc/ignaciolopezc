@@ -2,6 +2,7 @@
 
 <h1 align="center">Hola 👋, soy <b>Ignacio López Campos<b></h1>
 Soy **Consultor RPA** y ahora integrandome al desarrollo de software Fullstack | Titulado de Ingeniería en Informática con más de **12 años** de experiencia en consultoría e implementación de software. | Principalmente me desempeño como Consultor RPA con más de 3 años de experiencia en **3 años** de las principales herramientas del mercado.
+<br /><br />
 
 <div align="center">
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa.png" width="219" height="90" alt="Automation Anywhere" />
@@ -10,6 +11,7 @@ Soy **Consultor RPA** y ahora integrandome al desarrollo de software Fullstack |
 </div><br>
 
 Consultor RPA y Developer Fullstack | gran experiencia en la implementación de modelos de negocio de presupuesto y consolidación con la plataforma SAP BPC generando reportes e indicadores de control para distintos procesos.
+<br /><br />
 
 ## Encuéntrame en:
 
