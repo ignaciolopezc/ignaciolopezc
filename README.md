@@ -12,7 +12,7 @@ Principalmente me desempeño como Consultor RPA con más de 3 años de experienc
 
 nacho
 
-![https://github.com/ignaciolopezc](https://raw.githubusercontent.com/ignaciolopezc/ignaciolopezc/master/AA360_5.png.png)
+![https://github.com/ignaciolopezc](https://github.com/ignaciolopezc/ignaciolopezc/blob/main/AA360_5.png)
 
 nacho
 
