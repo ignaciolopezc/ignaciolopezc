@@ -2,7 +2,7 @@
 
 <h1 align="center">Hola 👋, soy <b>Ignacio López Campos<b></h1>
 
-Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingenieria en Informatica con más de <span style="color:white">**11 años de experiencia en consultoria.**</span> Principalmente me desempeño como <span style="color:white">**Consultor RPA con más de 3 años de experiencia en las principales herramientas del mercado.**</span> en mis funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones de negocio.<br>
+Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingeniería en informática con más de <span style="color:white">**11 años de experiencia en consultoría.**</span> Principalmente me desempeño como <span style="color:white">**Consultor RPA con más de 3 años de experiencia en las principales herramientas del mercado.**</span> en mis funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones de negocio.
 
 <div align="center">
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa.png" width="219" height="90" alt="Automation Anywhere" />
@@ -10,12 +10,11 @@ Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> 
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/uipath.png" width="219" height="73" alt="UiPath" />
 </div><br>
 
-La experiencia laboral durante mi carrera me ha permitido consolidar tecnicas de desarrollo de software e implementacion de soluciones de negocios al igual que liderar un equiop de trabajo, todo esto mientras mejoraba mi conocimientos en lenguajes de programación y herramientas de desarrollo.<br>
+La experiencia laboral durante mi carrera me ha permitido consolidar técnicas de desarrollo de software e implementación de soluciones de negocios al igual que liderar un equipo de trabajo, todo esto mientras mejoraba mis conocimientos en lenguajes de programación y herramientas de desarrollo.<br>
 
-Mi principal objetivo es combinar estas estas carreras para automatizar procesos y crear heramientas soluciones acordes a las neceidades de mercado.
+Mi principal objetivo es combinar estas estas carreras para automatizar procesos y crear herramientas soluciones acordes a las necesidades de mercado.<br>
 
-Anteriormente pase alrededor de <span style="color:white">**5 años trabajando como consultor BPC**</span> para grandes empresas como Pwc Chile. y Axity Chile. en este rol me asignaro grandes desafíos, inculuidos el desarollo e implementacion de herramientas de procesos Forecast y Budget con la plaraforma SAP BPC generando reportes e indicadores de control para grandes empresas de minería y otros segmentos de mercado. Durante ese tiempo pude superar y redefinir estos desafíos mediante exhaustivas entrevistas con clientes para conocer sus necesidades para designar y desarrollar soluciones compatible a sus necesidades.
-<br /><br />
+Anteriormente pase alrededor de <span style="color:white">**5 años trabajando como consultor BPC**</span> para grandes empresas como Pwc Chile. y Axity Chile. en este rol me asignaron grandes desafíos, incluidos el desarrollo e implementación de herramientas de procesos Forecast y Budget con la plataforma SAP BPC generando reportes e indicadores de control para grandes empresas de minería y otros segmentos de mercado. Durante ese tiempo pude superar y redefinir estos desafíos mediante exhaustivas entrevistas con clientes para conocer sus necesidades para designar y desarrollar soluciones compatibles a sus necesidades.<br /><br />
 
 ## Encuéntrame en:
 
@@ -61,6 +60,8 @@ Anteriormente pase alrededor de <span style="color:white">**5 años trabajando c
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -73,7 +74,10 @@ Anteriormente pase alrededor de <span style="color:white">**5 años trabajando c
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)<br><br>
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+<br><br>
 
 ## Herramientas:
 
@@ -86,6 +90,18 @@ Anteriormente pase alrededor de <span style="color:white">**5 años trabajando c
 ![Microsoft Visio ](https://img.shields.io/badge/Microsoft_Visio-3955A3?style=for-the-badge&logo=microsoft-visio&logoColor=white)
 ![Microsoft PowerPoint](https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
 ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)
+![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
+![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
+
+<!-- ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white) -->
+
+![Dropbox](https://img.shields.io/badge/Dropbox-%233B4D98.svg?style=for-the-badge&logo=Dropbox&logoColor=white)
+![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
+![OneDrive](https://img.shields.io/badge/OneDrive-0078D4.svg?style=for-the-badge&logo=microsoftonedrive&logoColor=white)
+
+Netlify ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 <!-- ![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)
 ![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
