@@ -109,3 +109,9 @@ Consultor RPA y Developer Fullstack | gran experiencia en la implementación de 
     <td><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ignaciolopezc&" height="190" alt="ignaciolopezc" /></td>
 </tr>
 </table>
+
+<style>
+tr, td {
+   border: none!important;
+}
+</style>
