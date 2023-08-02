@@ -1,8 +1,8 @@
 ![https://github.com/ignaciolopezc](/img/banner.png)
 
 <h1 align="center">Hola 👋, soy <b>Ignacio López Campos<b></h1>
-Soy **Consultor RPA** y ahora integrandome al desarrollo de software Fullstack | Titulado de Ingeniería en Informática con más de **12 años** de experiencia en consultoría e implementación de software. | Principalmente me desempeño como Consultor RPA con más de 3 años de experiencia en **3 años** de las principales herramientas del mercado.
-<br /><br />
+
+Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingenieria en Informatica con más de <span style="color:white">**11 años de experiencia en consultoria.**</span> Principalmente me desempeño como <span style="color:white">**Consultor RPA con más de 3 años de experiencia en las principales herramientas del mercado.**</span> en mis funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones de negocio.<br>
 
 <div align="center">
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa.png" width="219" height="90" alt="Automation Anywhere" />
@@ -10,22 +10,24 @@ Soy **Consultor RPA** y ahora integrandome al desarrollo de software Fullstack |
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/uipath.png" width="219" height="73" alt="UiPath" />
 </div><br>
 
-Consultor RPA y Developer Fullstack | gran experiencia en la implementación de modelos de negocio de presupuesto y consolidación con la plataforma SAP BPC generando reportes e indicadores de control para distintos procesos.
+La experiencia laboral durante mi carrera me ha permitido consolidar tecnicas de desarrollo de software e implementacion de soluciones de negocios al igual que liderar un equiop de trabajo, todo esto mientras mejoraba mi conocimientos en lenguajes de programación y herramientas de desarrollo.<br>
+
+Mi principal objetivo es combinar estas estas carreras para automatizar procesos y crear heramientas soluciones acordes a las neceidades de mercado.
+
+Anteriormente pase alrededor de <span style="color:white">**5 años trabajando como consultor BPC**</span> para grandes empresas como Pwc Chile. y Axity Chile. en este rol me asignaro grandes desafíos, inculuidos el desarollo e implementacion de herramientas de procesos Forecast y Budget con la plaraforma SAP BPC generando reportes e indicadores de control para grandes empresas de minería y otros segmentos de mercado. Durante ese tiempo pude superar y redefinir estos desafíos mediante exhaustivas entrevistas con clientes para conocer sus necesidades para designar y desarrollar soluciones compatible a sus necesidades.
 <br /><br />
 
 ## Encuéntrame en:
 
 [![LINKEDIN](https://img.shields.io/badge/LinkedIn-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/ignaciolopezcampos/)
+[![GMAIL](https://img.shields.io/badge/Gmail-ignaciolopezc@gmail.com-D14836?style=for-the-badge&logo=Gmail&logoColor=white&labelColor=101010)]()
 [![WEB](https://img.shields.io/badge/WEB-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=CLion&logoColor=white&labelColor=101010)](https://ignaciolopezcampos.cl/)
 [![GITHUB](https://img.shields.io/badge/github-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/ignaciolopezc)
 [![INSTAGRAM](https://img.shields.io/badge/Instagram-@nacho_mlot-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=101010)](https://www.instagram.com/nacho_mlot/)
 [![FACEBOOK](https://img.shields.io/badge/Facebook-ignaciolopez-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=101010)](https://www.facebook.com/ignacio.lopez.355)
 [![DISCORD](https://img.shields.io/badge/Discord-mlotn5-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=101010)](https://discordapp.com/users/846197921766703134)
-[![GMAIL](https://img.shields.io/badge/Gmail-ignaciolopezc@gmail.com-D14836?style=for-the-badge&logo=Gmail&logoColor=white&labelColor=101010)]()
 
-<!-- [![GITHUBPAGE](https://img.shields.io/badge/github_PAGES-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/ignaciolopezc) -->
-
-<h1 align="center"><b>Proyectos<b></h1>
+<!-- <h1 align="center"><b>Proyectos<b></h1>
 
 - 👨‍💻 All of my projects are available at [www.ignaciolopezcampos.com](www.ignaciolopezcampos.com)
 - 📫 How to reach me **Ignaciolopezc@gmail.com**
@@ -41,7 +43,7 @@ Consultor RPA y Developer Fullstack | gran experiencia en la implementación de 
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
-- 🐕 mencionar a mlot<br><br>
+- 🐕 mencionar a mlot<br><br> -->
 
 ## Tecnologías:
 
