@@ -1,4 +1,4 @@
-# Hola mi nombre es Ignacio López Campos 👋
+# Hola mi nombre es Ignacio López 👋
 
 ### Consultor RPA y Developer Fullstack
 
@@ -15,6 +15,8 @@ nacho
 ![https://github.com/ignaciolopezc](https://github.com/ignaciolopezc/ignaciolopezc/blob/main/AA360_5.png)
 
 nacho
+
+<img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/AA360_5.png" alt="github" />
 
 <!-- ![img](/icons/AA360_5.png) -->
 
