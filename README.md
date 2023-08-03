@@ -1,14 +1,16 @@
-![https://github.com/ignaciolopezc](/img/banner.png)
+<!-- ![https://github.com/ignaciolopezc](/img/banner1.png) -->
 
-<h1 align="center">Hola 👋, soy <b>Ignacio López Campos<b></h1>
+![https://github.com/ignaciolopezc](/img/banner2.png)
+
+<!-- <h1 align="center">Hola 👋, soy <b>Ignacio López Campos<b></h1> -->
 
 Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingeniería en informática con más de <span style="color:white">**11 años de experiencia en consultoría.**</span> Principalmente me desempeño como <span style="color:white">**Consultor RPA con más de 3 años de experiencia en las principales herramientas del mercado.**</span> en mis funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones de negocio.
 
-![imagen](/icons/aa_dark.png#gh-dark-mode-only)
-![imagen](/icons/aa_light.png#gh-light-mode-only)
+<!-- ![imagen](/icons/aa_dark.png#gh-dark-mode-only)
+![imagen](/icons/aa_light.png#gh-light-mode-only) -->
 
 <div align="center">
-    <!-- <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa.png" width="219" height="90" alt="Automation Anywhere" /> -->
+    <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa.png" width="219" height="90" alt="Automation Anywhere" />
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/pp.png" width="219" height="88" alt="Power Automate" />
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/uipath.png" width="219" height="73" alt="UiPath" />
 </div><br>
