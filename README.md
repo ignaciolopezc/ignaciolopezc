@@ -4,6 +4,9 @@
 
 Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingeniería en informática con más de <span style="color:white">**11 años de experiencia en consultoría.**</span> Principalmente me desempeño como <span style="color:white">**Consultor RPA con más de 3 años de experiencia en las principales herramientas del mercado.**</span> en mis funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones de negocio.
 
+![imagen](/icons/aa_dark.png#gh-dark-mode-only)
+![imagen](/icons/aa_light.png.png#gh-light-mode-only)
+
 <div align="center">
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa.png" width="219" height="90" alt="Automation Anywhere" />
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/pp.png" width="219" height="88" alt="Power Automate" />
@@ -99,10 +102,10 @@ Anteriormente pase alrededor de <span style="color:white">**5 años trabajando c
 ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
 ![OneDrive](https://img.shields.io/badge/OneDrive-0078D4.svg?style=for-the-badge&logo=microsoftonedrive&logoColor=white)
 
-Netlify ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
+<!-- ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) -->
 <!-- ![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)
 ![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=101010)]() -->
