@@ -6,7 +6,7 @@
 
 <div align="center">
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa_dark.png" width="219" height="90" alt="Automation Anywhere" />
-    <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/pp.png" width="219" height="88" alt="Power Automate" />
+    <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/pp_dark.png" width="219" height="88" alt="Power Automate" />
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/uipath.png" width="219" height="73" alt="UiPath" />
 </div><br>
 
@@ -20,7 +20,7 @@ Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> 
 
 <div align="center">
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa_dark.png" width="219" height="90" alt="Automation Anywhere" />
-    <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/pp.png" width="219" height="88" alt="Power Automate" />
+    <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/pp_dark.png" width="219" height="88" alt="Power Automate" />
     <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/uipath.png" width="219" height="73" alt="UiPath" />
 </div><br>
 
