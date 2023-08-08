@@ -3,7 +3,7 @@
 > [Hola 👋]
 > Mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingeniería en informática con más de <span style="color:white">**11 años de experiencia en consultoría.**</span> Principalmente me desempeño como <span style="color:white">**Developer RPA, desarrollando habilidades por más de 3 años en las principales herramientas del mercado**</span>. Dentro de algunas funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones optimas y eficaces de negocio.
 
-<div align="center">
+<!-- <div align="center">
 <table border="0">
  <tr>
     <td>
@@ -27,13 +27,12 @@
  </tr>
 </table>
 
-#
+</div><br> -->
 
-#
+<div align="center">
 
-#
-
-#
+| ![AA](./icons/new1/aa_dark.png#gh-dark-mode-only) | ![PP](./icons/new1/pp_dark.png#gh-dark-mode-only) | ![Ui](./icons/new1/uipath.png#gh-dark-mode-only) |
+| ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------ |
 
 </div><br>
 
