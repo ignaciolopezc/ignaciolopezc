@@ -2,16 +2,67 @@
 
 Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingeniería en informática con más de <span style="color:white">**11 años de experiencia en consultoría.**</span> Principalmente me desempeño como <span style="color:white">**Developer RPA, desarrollando habilidades por más de 3 años en las principales herramientas del mercado**</span>. Dentro de algunas funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones optimas y eficaces de negocio.
 
+<div class="container-fluid cew-9">
+ <div class="row">
+  <div class="col">
+  
+  ![AA](./icons/new1/aa_dark.png#gh-dark-mode-only)
+  ![AA](./icons/new1/aa_light.png#gh-light-mode-only)
+  </div>
+  <div class="col">
+  
+  ![PP](./icons/new1/pp_dark.png#gh-dark-mode-only)
+  ![PP](./icons/new1/pp_light.png#gh-light-mode-only)
+  </div>
+  <div class="col">
+  
+  ![Ui](./icons/new1/uipath.png#gh-dark-mode-only)
+  ![Ui](./icons/new1/uipath.png#gh-light-mode-only)
+  </div>
+ </div>
+</div>
+
+:::row:::
+:::column span="2":::
+**This is a 2-span column with lots of text.**
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum mollis nunc
+      ornare commodo. Nullam ac metus imperdiet, rutrum justo vel, vulputate leo. Donec
+      rutrum non eros eget consectetur.
+
+:::column-end:::
+:::column span="":::
+**This is a single-span column with an image in it.**
+
+      ![Doc.U.Ment](media/markdown-reference/document.png)
+
+:::column-end:::
+:::row-end:::
+
+> [!NOTE]
+> Information the user should notice even if skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]
+> Essential information required for user success.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
+> [!WARNING]
+> Dangerous certain consequences of an action.
+
+#
+
+#
+
+#
+
+#
+
 <div align="center">
-
-![AA](./icons/new1/aa_dark.png#gh-dark-mode-only)
-![AA](./icons/new1/aa_light.png#gh-light-mode-only)
-
-![PP](./icons/new1/pp_dark.png#gh-dark-mode-only)
-![PP](./icons/new1/pp_light.png#gh-light-mode-only)
-
-![Ui](./icons/new1/uipath.png#gh-dark-mode-only)
-![Ui](./icons/new1/uipath.png#gh-light-mode-only)
 
 </div><br>
 
