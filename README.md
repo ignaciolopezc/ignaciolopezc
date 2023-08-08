@@ -1,33 +1,22 @@
-<!-- ![https://github.com/ignaciolopezc](/img/banner1.png) -->
-
 ![https://github.com/ignaciolopezc](/img/banner2.png)
-
-<!-- Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingeniería en informática con más de <span style="color:white">**11 años de experiencia en consultoría.**</span> Principalmente me desempeño como <span style="color:white">**Consultor RPA con más de 3 años de experiencia en las principales herramientas del mercado.**</span> en mis funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones de negocio.
-
-<div align="center">
-    <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa_dark.png" width="219" height="90" alt="Automation Anywhere" />
-    <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/pp_dark.png" width="219" height="88" alt="Power Automate" />
-    <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/uipath.png" width="219" height="73" alt="UiPath" />
-</div><br>
-
-La experiencia laboral durante mi carrera me ha permitido consolidar técnicas de desarrollo de software e implementación de soluciones de negocios al igual que liderar un equipo de trabajo, todo esto mientras mejoraba mis conocimientos en lenguajes de programación y herramientas de desarrollo.<br>
-
-Mi principal objetivo es combinar estas estas carreras para automatizar procesos y crear herramientas soluciones acordes a las necesidades de mercado.<br>
-
-Anteriormente pase alrededor de <span style="color:white">**5 años trabajando como consultor BPC**</span> para grandes empresas como Pwc Chile. y Axity Chile. en este rol me asignaron grandes desafíos, incluidos el desarrollo e implementación de herramientas de procesos Forecast y Budget con la plataforma SAP BPC generando reportes e indicadores de control para grandes empresas de minería y otros segmentos de mercado. Durante ese tiempo pude superar y redefinir estos desafíos mediante exhaustivas entrevistas con clientes para conocer sus necesidades para designar y desarrollar soluciones compatibles a sus necesidades.<br /><br /> -->
 
 Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingeniería en informática con más de <span style="color:white">**11 años de experiencia en consultoría.**</span> Principalmente me desempeño como <span style="color:white">**Developer RPA, desarrollando habilidades por más de 3 años en las principales herramientas del mercado**</span>. Dentro de algunas funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones optimas y eficaces de negocio.
 
 <div align="center">
-    <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/aa_dark.png" width="219" height="90" alt="Automation Anywhere" />
-    <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/pp_dark.png" width="219" height="88" alt="Power Automate" />
-    <img src="https://github.com/ignaciolopezc/ignaciolopezc/blob/main/icons/uipath.png" width="219" height="73" alt="UiPath" />
+
+![AA](./icons/new1/aa_dark.png#gh-dark-mode-only)
+![AA](./icons/new1/aa_light.png#gh-light-mode-only)
+
+![PP](./icons/new1/pp_dark.png#gh-dark-mode-only)
+![PP](./icons/new1/pp_light.png#gh-light-mode-only)
+
+![Ui](./icons/new1/uipath.png#gh-dark-mode-only)
+![Ui](./icons/new1/uipath.png#gh-light-mode-only)
+
 </div><br>
 
 Mi experiencia laboral me ha permitido consolidar técnicas de desarrollo de software e implementación de soluciones de negocios, al igual que liderar equipos de trabajo, todo esto mientras fortalecía mis conocimientos en lenguajes de programación y herramientas de desarrollo.
 Mi principal objetivo es combinar estas carreras para automatizar procesos y crear herramientas, las cuales sean soluciones eficaces y acordes a las necesidades actuales de los diferentes mercados.
-
- <!-- eficientar procesos que sean acordes a las necesidades de mis clientes. -->
 
 Antes de llegar aquí, estuve <span style="color:white">**5 años trabajando como consultor BPC**</span> para grandes empresas como PwC Chile Axity Chile y TBusiness En este rol tome grandes desafíos, incluidos el desarrollo e implementación de herramientas de procesos Forecast y Budget, con la plataforma SAP BPC generando reportes e indicadores de control para grandes empresas de minería y otros segmentos de mercado. Durante este tiempo logre avanzar y redefinir desafíos, mediante exhaustivas entrevistas con clientes para conocer sus necesidades, con la finalidad de diseñar y desarrollar soluciones compatibles a sus necesidades.
 <br /><br />
