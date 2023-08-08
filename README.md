@@ -4,14 +4,14 @@ Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> 
 
 <div align="center">
 
-![AA](./icons/new1/aa_dark.png#gh-dark-mode-only)
-![AA](./icons/new1/aa_light.png#gh-light-mode-only)
+![AA](./icons/aa_dark.png#gh-dark-mode-only)
+![AA](./icons/aa_light.png#gh-light-mode-only)
 
-![PP](./icons/new1/pp_dark.png#gh-dark-mode-only)
-![PP](./icons/new1/pp_light.png#gh-light-mode-only)
+![PP](./icons/pp_dark.png#gh-dark-mode-only)
+![PP](./icons/pp_light.png#gh-light-mode-only)
 
-![Ui](./icons/new1/uipath.png#gh-dark-mode-only)
-![Ui](./icons/new1/uipath.png#gh-light-mode-only)
+![Ui](./icons/uipath.png#gh-dark-mode-only)
+![Ui](./icons/uipath.png#gh-light-mode-only)
 
 </div><br>
 
