@@ -1,38 +1,17 @@
 ![https://github.com/ignaciolopezc](/img/banner2.png)
 
-> [Hola 👋]
-> Mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingeniería en informática con más de <span style="color:white">**11 años de experiencia en consultoría.**</span> Principalmente me desempeño como <span style="color:white">**Developer RPA, desarrollando habilidades por más de 3 años en las principales herramientas del mercado**</span>. Dentro de algunas funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones optimas y eficaces de negocio.
+Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingenieria en Informatica con más de <span style="color:white">**11 años de experiencia en consultoria.**</span> Principalmente me desempeño como <span style="color:white">**Consultor RPA con más de 3 años de experiencia en las principales herramientas del mercado.**</span> en mis funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones de negocio.<br>
 
-<!-- <div align="center">
-<table border="0">
- <tr>
-    <td>
+<div align="center">
 
 ![AA](./icons/new1/aa_dark.png#gh-dark-mode-only)
 ![AA](./icons/new1/aa_light.png#gh-light-mode-only)
 
-</td>
-    <td>
-
 ![PP](./icons/new1/pp_dark.png#gh-dark-mode-only)
 ![PP](./icons/new1/pp_light.png#gh-light-mode-only)
 
-</td>
-    <td>
-
 ![Ui](./icons/new1/uipath.png#gh-dark-mode-only)
 ![Ui](./icons/new1/uipath.png#gh-light-mode-only)
-
-</td>
- </tr>
-</table>
-
-</div><br> -->
-
-<div align="center">
-
-| ![AA](./icons/new1/aa_dark.png#gh-dark-mode-only) | ![PP](./icons/new1/pp_dark.png#gh-dark-mode-only) | ![Ui](./icons/new1/uipath.png#gh-dark-mode-only) |
-| ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------ |
 
 </div><br>
 
