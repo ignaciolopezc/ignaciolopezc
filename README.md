@@ -1,50 +1,39 @@
 ![https://github.com/ignaciolopezc](/img/banner2.png)
 
-> [!NOTE]
-> Information the user should notice even if skimming.
-> Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingeniería en informática con más de <span style="color:white">**11 años de experiencia en consultoría.**</span> Principalmente me desempeño como <span style="color:white">**Developer RPA, desarrollando habilidades por más de 3 años en las principales herramientas del mercado**</span>. Dentro de algunas funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones optimas y eficaces de negocio.
-
-<div class="container-fluid cew-9">
- <div class="row">
-  <div class="col">
-  
-  ![AA](./icons/new1/aa_dark.png#gh-dark-mode-only)
-  ![AA](./icons/new1/aa_light.png#gh-light-mode-only)
-  </div>
-  <div class="col">
-  
-  ![PP](./icons/new1/pp_dark.png#gh-dark-mode-only)
-  ![PP](./icons/new1/pp_light.png#gh-light-mode-only)
-  </div>
-  <div class="col">
-  
-  ![Ui](./icons/new1/uipath.png#gh-dark-mode-only)
-  ![Ui](./icons/new1/uipath.png#gh-light-mode-only)
-  </div>
- </div>
-</div>
-
-> [!IMPORTANT]
-> Essential information required for user success.
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum mollis nunc
-> ornare commodo. Nullam ac metus imperdiet, rutrum justo vel, vulputate leo. Donec
-> rutrum non eros eget consectetur.
-
-> [!WARNING]
-> Dangerous certain consequences of an action.
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum mollis nunc
-> ornare commodo. Nullam ac metus imperdiet, rutrum justo vel, vulputate leo. Donec
-> rutrum non eros eget consectetur.
-
-#
-
-#
-
-#
-
-#
+> [Hola 👋]
+> Mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingeniería en informática con más de <span style="color:white">**11 años de experiencia en consultoría.**</span> Principalmente me desempeño como <span style="color:white">**Developer RPA, desarrollando habilidades por más de 3 años en las principales herramientas del mercado**</span>. Dentro de algunas funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones optimas y eficaces de negocio.
 
 <div align="center">
+<table border="0">
+ <tr>
+    <td>
+
+![AA](./icons/new1/aa_dark.png#gh-dark-mode-only)
+![AA](./icons/new1/aa_light.png#gh-light-mode-only)
+
+</td>
+    <td>
+
+![PP](./icons/new1/pp_dark.png#gh-dark-mode-only)
+![PP](./icons/new1/pp_light.png#gh-light-mode-only)
+
+</td>
+    <td>
+
+![Ui](./icons/new1/uipath.png#gh-dark-mode-only)
+![Ui](./icons/new1/uipath.png#gh-light-mode-only)
+
+</td>
+ </tr>
+</table>
+
+#
+
+#
+
+#
+
+#
 
 </div><br>
 
