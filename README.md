@@ -23,12 +23,18 @@ Antes de llegar aquí, estuve <span style="color:white">**5 años trabajando com
 
 ## Encuéntrame en:
 
-[![LINKEDIN](https://img.shields.io/badge/LinkedIn-Ignacio_Lópezzzz_CAmpos-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/ignaciolopezcampos/)
+[![LINKEDIN](https://img.shields.io/badge/LinkedIn-www.linkedin.com/in/ignaciolopezcampos-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/ignaciolopezcampos/)
+
 [![GMAIL](https://img.shields.io/badge/Gmail-ignaciolopezc@gmail.com-D14836?style=for-the-badge&logo=Gmail&logoColor=white&labelColor=101010)]()
-[![WEB](https://img.shields.io/badge/WEB-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=CLion&logoColor=white&labelColor=101010)](https://ignaciolopezcampos.cl/)
-[![GITHUB](https://img.shields.io/badge/github-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/ignaciolopezc)
+
+[![WEB](https://img.shields.io/badge/WEB-www.Ignaciolopezc.cl-0077B5?style=for-the-badge&logo=CLion&logoColor=white&labelColor=101010)](https://ignaciolopezcampos.cl/)
+
+[![GITHUB](https://img.shields.io/badge/github-Ignaciolopezc-0077B5?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/ignaciolopezc)
+
 [![INSTAGRAM](https://img.shields.io/badge/Instagram-@nacho_mlot-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=101010)](https://www.instagram.com/nacho_mlot/)
+
 [![FACEBOOK](https://img.shields.io/badge/Facebook-ignaciolopez-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=101010)](https://www.facebook.com/ignacio.lopez.355)
+
 [![DISCORD](https://img.shields.io/badge/Discord-mlotn5-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=101010)](https://discordapp.com/users/846197921766703134)
 
 <!-- <h1 align="center"><b>Proyectos<b></h1>
