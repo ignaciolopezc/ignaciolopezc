@@ -23,7 +23,7 @@ Antes de llegar aquí, estuve <span style="color:white">**5 años trabajando com
 
 ## Encuéntrame en:
 
-[![LINKEDIN](https://img.shields.io/badge/LinkedIn-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/ignaciolopezcampos/)
+[![LINKEDIN](https://img.shields.io/badge/LinkedIn-Ignacio_Lópezzzz_CAmpos-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/ignaciolopezcampos/)
 [![GMAIL](https://img.shields.io/badge/Gmail-ignaciolopezc@gmail.com-D14836?style=for-the-badge&logo=Gmail&logoColor=white&labelColor=101010)]()
 [![WEB](https://img.shields.io/badge/WEB-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=CLion&logoColor=white&labelColor=101010)](https://ignaciolopezcampos.cl/)
 [![GITHUB](https://img.shields.io/badge/github-Ignacio_López_CAmpos-0077B5?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/ignaciolopezc)
@@ -129,9 +129,3 @@ Antes de llegar aquí, estuve <span style="color:white">**5 años trabajando com
 #
 
 #
-
-<!-- <div align="center">
-
-![imagen](/icons/aa_dark.png#gh-dark-mode-only)![imagen](/icons/aa_light.png#gh-light-mode-only)![imagen](/icons/new/pp_dark.png#gh-dark-mode-only)![imagen](/icons/new/pp_light.png#gh-light-mode-only)![imagen](/icons/new/uipath2.png)
-
-</div><br> -->
