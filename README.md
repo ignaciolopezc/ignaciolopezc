@@ -1,24 +1,10 @@
-<<<<<<< HEAD
-![https://github.com/ignaciolopezc](/img/banner2.png)
 =======
 ![https://github.com/ignaciolopezc](./src/assets/images/banner1.png)
->>>>>>> dev
 
 Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingenieria en Informatica con más de <span style="color:white">**11 años de experiencia en consultoria.**</span> Principalmente me desempeño como <span style="color:white">**Consultor RPA con más de 3 años de experiencia en las principales herramientas del mercado.**</span> en mis funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones de negocio.<br>
 
-<div align="center">
+# <div align="center">
 
-![AA](./icons/aa_dark.png#gh-dark-mode-only)
-![AA](./icons/aa_light.png#gh-light-mode-only)
-
-![PP](./icons/pp_dark.png#gh-dark-mode-only)
-![PP](./icons/pp_light.png#gh-light-mode-only)
-
-![Ui](./icons/uipath.png#gh-dark-mode-only)
-![Ui](./icons/uipath.png#gh-light-mode-only)
-
-<<<<<<< HEAD
-=======
 ![AA](./src/assets/icons/aa_dark.png#gh-dark-mode-only)
 ![AA](./src/assets/icons/aa_light.png#gh-light-mode-only)
 
@@ -27,9 +13,10 @@ Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> 
 
 ![Ui](./src/assets/icons/uipath.png#gh-dark-mode-only)
 ![Ui](./src/assets/icons/uipath.png#gh-light-mode-only)
+=======
 
->>>>>>> dev
-</div><br>
+</div>
+<br>
 
 Mi experiencia laboral me ha permitido consolidar técnicas de desarrollo de software e implementación de soluciones de negocios, al igual que liderar equipos de trabajo, todo esto mientras fortalecía mis conocimientos en lenguajes de programación y herramientas de desarrollo.
 Mi principal objetivo es combinar estas carreras para automatizar procesos y crear herramientas, las cuales sean soluciones eficaces y acordes a las necesidades actuales de los diferentes mercados.
