@@ -1,0 +1,37 @@
+---
+interface Props {
+    years: number;
+}
+
+const years = Astro.props.years || 12;
+const yearsRPA = Astro.props.years - 11 || 5;
+---
+
+
+<section id="about" class="relative pb-40">
+    <div class="container relative">
+        <div class="grid grid-cols-1 pb-8 text-center">
+            <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">About me</h6>
+            <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Acerca de mí</h3>
+        </div>
+    
+        <div class="flex justify-center">
+            <div class="lg:max-w-4xl w-full text-center text-slate-600 dark:text-slate-200">
+                <p>
+                    Mi nombre Ignacio López Campos soy Titulado de Ingenieria en Informatica con más de <span class="font-bold">{years} años de experiencia en consultoria.</span> Principalmente me desempeño como <span class="font-bold">Consultor RPA con más de {yearsRPA} años de experiencia</span> en las principales herramientas del mercado. en mis funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones de negocio.
+                </p>
+                <p class="mt-8">
+                    Mi experiencia laboral me ha permitido consolidar técnicas de desarrollo de software e implementación de soluciones de negocios, al igual que liderar equipos de trabajo, todo esto mientras fortalecía mis conocimientos en lenguajes de programación y herramientas de desarrollo. Mi principal objetivo es combinar estas carreras para automatizar procesos y crear herramientas, las cuales sean soluciones eficaces y acordes a las necesidades actuales de los diferentes mercados.
+                </p>
+                <p class="mt-8">
+                    Antes de llegar aquí, estuve <span class="font-bold">5 años trabajando como Consultor BPC</span> para grandes empresas como PwC Chile, Axity Chile y TBusiness En este rol tome grandes desafíos, incluidos el desarrollo e implementación de herramientas de procesos Forecast y Budget, con la plataforma SAP BPC generando reportes e indicadores de control para grandes empresas de minería y otros segmentos de mercado. Durante este tiempo logre avanzar y redefinir desafíos, mediante exhaustivas entrevistas con clientes para conocer sus necesidades, con la finalidad de diseñar y desarrollar soluciones compatibles a sus necesidades.
+                </p>
+            
+                <!-- <div class="mt-6 text-center">
+                    <a href="/about_me" class="relative inline-block font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-slate-400 dark:text-white/70 dark:hover:text-white hover:text-indigo-600 after:bg-indigo-600 dark:after:bg-white duration-500 ease-in-out">Quieres saber más? <i class="uil uil-arrow-right"></i></a>
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+</section>

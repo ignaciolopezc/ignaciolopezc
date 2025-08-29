@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/layout.astro'
+import Hero from '../components/Hero.astro'
+import About from '../components/About.astro'
+import Experience from '../components/Experience.astro'
+import Proyect from '../components/Proyect.astro'
+import FAQ from '../components/FAQ.astro'
+import Tech from '../components/ui/Tech.astro'
+import Contact from '../components/Contact.astro'
+import Education from '../components/Education.astro'
+
+import Hero2 from '../components/Hero2.astro'
+
+// import Testing from '../components/testing.astro'
+// import Partner from '../components/ui/Partner.astro'
+
+import { calculateYears } from '../utils/dateUtils.js';
+
+const years = calculateYears();
+---
+
+
+<Layout >
+
+    <Hero2 years={years}/>
+    <!-- <Hero /> -->
+    <!-- <About years={years} /> -->
+    <Experience />
+    <Tech />
+    <Education />
+    <!-- <Proyect /> -->
+     <!-- <Partner /> -->
+    <FAQ years={years} />
+    <Contact />
+
+</Layout>
+
