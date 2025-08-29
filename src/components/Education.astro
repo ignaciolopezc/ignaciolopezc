@@ -1,0 +1,85 @@
+---
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('exp');
+const sortedPosts = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+---
+
+
+<section id="education" class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800">
+    <div class="container relative">
+        <div class="grid grid-cols-1 pb-8 text-center">
+            <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">Education</h6>
+            <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Educación</h3>
+        </div>
+
+        <div class="mt-10 text-center">
+            <h4 class="mb-4 text-2xl leading-normal font-medium">Ingenieria en Informatica.</h4>
+            <p class="text-slate-400">Titulado el año 2015 en Duoc UC siendo capas de diseñar, integrar y liderar soluciones tecnológicas innovadoras en áreas como desarrollo de software, automatización, ciencia de datos, impactando la calidad y seguridad de los sistemas informáticos en organizaciones a nivel global</p>
+            <ul class="list-none text-slate-400 mt-4 max-w-3xl mx-auto">
+                <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Enfocado en la gestión de proyectos y manejo de metodologías para el desarrollo de procesos.</li>
+                <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Manejo y experiencia en el diseño e integraciones de protocolos de comunicación.</li>
+                <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Capacidad de emprendimiento e innovación con equipos de trabajo.</li>
+                <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Liderazgo en el desarrollo de aplicaciones y lenguajes en entornos web.</li>
+            </ul>
+        </div>
+
+        <div class="mt-10 text-center">
+            <h4 class="mb-4 text-2xl leading-normal font-medium">Analista Programador Computacional.</h4>
+            <p class="text-slate-400">Titulado el año 2009 en Duoc UC enfocado en desarrollar soluciones de software innovadoras y seguras, aplicando metodologías de ingeniería y estándares de la industria, con una visión estratégica orientada a las necesidades del negocio y la transformación digital.</p>
+            <ul class="list-none text-slate-400 mt-4 max-w-3xl mx-auto">
+                <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Enfocado en la creación y desarrollo de aplicaciones.</li>
+                <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Manejo de protocolos de comunicación y seguridad de los datos en el desarrollo.</li>
+                <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Integración con plataformas orientadas a objetos.</li>
+                <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Estudio en lenguajes de programación Desktop y Web.</li>
+                <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Estudio de arquitecturas de bases de datos relacionales SQL.</li>
+            </ul>
+        </div>
+
+        <div class="mt-10 text-center">
+            <h4 class="mb-4 text-2xl leading-normal font-medium">Cursos y Capacitaciones.</h4>
+            <ul class="list-none text-slate-400 mt-4 mx-auto">
+                
+                <li class="mb-1">2025 - Astro REST API Tailwind TypeScript - Freelance.</li>
+                <li class="mb-1">2024 - Excel Analysis Microsoft - Tecno Fast .</li>
+                <li class="mb-1">2024 - Power BI Microsoft - Tecno Fast .</li>
+                <li class="mb-1">2023 - Curso React JS y Next JS 13 .</li>
+                <li class="mb-1">2023 - Curso Bootstrap5 - SASS .</li>
+                <li class="mb-1">2023 - Guía moderna de JavaScript 2023 .</li>
+                <li class="mb-1">2021 - Academy Uipath Automation Studio X - TBusiness .</li>
+                <li class="mb-1">2021 - Academy Uipath Orchestrator Developers - TBusiness .</li>
+                <li class="mb-1">2021 - Automation Anywhere University IQ Bot - TBusiness .</li>
+                <li class="mb-1">2020 - Automation Anywhere University Automation 360 - TBusiness .</li>
+                <li class="mb-1">2020 - Big Data Bootcamp - Axity Chile .</li>
+                <li class="mb-1">2020 - Python Bootcamp - Axity Chile .</li>
+                <li class="mb-1">2019 - Workshop framework Scrum Master - Axity .</li>
+                <li class="mb-1">2013 - Certificación Toeic / Toefl Bridge Ingles a Nivel Intermedio avanzado .</li>
+                <li class="mb-1">2012 - Curso Microsoft Dynamics CRM - PwC Chile .</li>
+                <li class="mb-1">2010 - Seminario XBRL en la Universidad de Chile - PwC Chile .</li>
+                <li class="mb-1">2010 - Certificación Excel Avanzado en eCenter - PwC Chile .</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- 
+<li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2024 - Excel Analysis Microsoft - Tecno Fast .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2024 - Power BI Microsoft - Tecno Fast .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2023 - Curso React JS y Next JS 13 .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2023 - Curso Bootstrap5 - SASS .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2023 - Guía moderna de JavaScript 2023 .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2021 - Academy Uipath Automation Studio X - TBusiness .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2021 - Academy Uipath Orchestrator Developers - TBusiness .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2021 - Automation Anywhere University IQ Bot - TBusiness .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2020 - Automation Anywhere University Automation 360 - TBusiness .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2020 - Big Data Bootcamp - Axity Chile .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2020 - Python Bootcamp - Axity Chile .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2019 - Workshop framework Scrum Master - Axity .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2013 - Certificación Toeic / Toefl Bridge Ingles a Nivel Intermedio avanzado .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2012 - Curso Microsoft Dynamics CRM - PwC Chile .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2010 - Seminario XBRL en la Universidad de Chile - PwC Chile .</li>
+            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>2010 - Certificación Excel Avanzado en eCenter - PwC Chile .</li> -->

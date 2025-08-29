@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+
+
+const posts = await getCollection('exp');
+const sortedPosts = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+
+<section class="container mx-auto px-4 py-8">
+
+  <div class="grid gap-8">
+    {sortedPosts.map(async (post) => {
+      const { Content } = await post.render();
+      return (
+      <p>{post.data.empresa}</p>
+      <p>{post.data.fecha}</p>
+      <p>{post.data.cargo}</p>
+      <p><Content /></p>
+    )
+    })
+}
+      
+      
+  </div>
+</section>

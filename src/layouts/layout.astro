@@ -1,0 +1,74 @@
+---
+import { ClientRouter, fade, slide } from "astro:transitions"
+import Header from '../components/ui/Header.astro'
+import Footer from "../components/ui/Footer.astro";
+
+---
+
+
+<!DOCTYPE html>
+<html lang="en" class="light scroll-smooth" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ignacio López Campos</title>
+    <meta name="generator" content={Astro.generator} />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Ignacio López Campos Consultor de procesos RPA Automatizacion Desarrollo">
+    <meta name="keywords" content="Automation Automatizacion RPA Ignacio López Campos">
+    <meta name="author" content="Ignacio López Campos">
+    <meta name="website" content="https://ignaciolopezc.cl">
+    <meta name="email" content="contacto@ignaciolopezc.cl">
+    <meta name="version" content="1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- <link rel="shortcut icon" href="src/assets/images/favicon.ico"> -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="stylesheet" href="src/assets/css/tailwind.css">
+
+    <ClientRouter />
+</head>
+<body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
+    
+    <Header />
+    
+    <main >
+        <slot />
+    </main>
+    
+
+    <Footer />
+    <a href="#" 
+        id="back-to-top" 
+        class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 end-5 size-9 text-center bg-indigo-600 text-white leading-9 transform-none">
+        <i class="uil uil-arrow-up"></i>
+    </a>
+
+    <script is:inline>
+        document.addEventListener('DOMContentLoaded', function() {
+            const backToTop = document.getElementById('back-to-top');
+            
+            window.onscroll = function() {
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    backToTop.classList.remove('hidden');
+                } else {
+                    backToTop.classList.add('hidden');
+                }
+            };
+
+            backToTop.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+
+
+
+</body>
+</html>
+
+
