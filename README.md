@@ -1,9 +1,8 @@
-=======
 ![https://github.com/ignaciolopezc](./src/assets/images/banner1.png)
 
 Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingenieria en Informatica con más de <span style="color:white">**11 años de experiencia en consultoria.**</span> Principalmente me desempeño como <span style="color:white">**Consultor RPA con más de 3 años de experiencia en las principales herramientas del mercado.**</span> en mis funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones de negocio.<br>
 
-# <div align="center">
+# <div style="text-align:center">
 
 ![AA](./src/assets/icons/aa_dark.png#gh-dark-mode-only)
 ![AA](./src/assets/icons/aa_light.png#gh-light-mode-only)
