@@ -1,0 +1,54 @@
+---
+
+---
+
+<section id="contact">
+    <div class="container relative md:mt-24 my-16">
+        <div class="grid grid-cols-1 text-center">
+            <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">Contactame</h6>
+            <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">¿ Tiene una pregunta ? Conversemos!</h3>
+
+            <p class="text-slate-400 mb-8 max-w-xl mx-auto">En el inicio y al final de esta pagina podras encontrar mis redes sociales o si gustas puedes enviarme un mensaje con el siguiente formulario</p>
+            
+
+            <form method="post" name="myForm" id="myForm" onsubmit="return validateForm()">
+            <p class="mb-0" id="error-msg"></p>
+            <div id="simple-msg"></div>
+            <div class="grid lg:grid-cols-12 lg:gap-6">
+                <div class="lg:col-span-6 mb-5">
+                    <div class="text-start">
+                        <label for="name" class="font-semibold">Nombre:</label>
+                        <div class="form-icon relative mt-2">
+                            <input name="name" id="name" type="text" class="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Nombre y Apellido :">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6 mb-5">
+                    <div class="text-start">
+                        <label for="email" class="font-semibold">Email:</label>
+                        <div class="form-icon relative mt-2">
+                            <input name="email" id="email" type="email" class="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Email :">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1">
+                <div class="mb-5">
+                    <div class="text-start">
+                        <label for="comments" class="font-semibold">Mensaje:</label>
+                        <div class="form-icon relative mt-2">
+                            <i data-feather="message-circle" class="size-4 absolute top-3 start-4"></i>
+                            <textarea name="comments" id="comments" class="form-input ps-11 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Su mensaje :"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <button type="submit" id="submit" name="send" class="py-2 px-5 font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md justify-center flex items-center">Enviar</button> -->
+            <button type="submit" id="submit" name="send" class="py-2 mb-10 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-4"><i class="uil uil-phone"></i> Enviar </button>
+        </form>
+
+        </div>
+    </div>
+</section>

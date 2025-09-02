@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+/* Se utiliza @layer para controlar el orden de la carga de los componentes */
+
+@import "./utilities/full.css";
+
+/* Breakpoints ----------------------------------------
+@theme {
+  --breakpoint-xs: 540px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+/* Base ----------------------------------------------- */
+
+/* Padding -------------------------------------------- */
+/* @theme {
+  --padding-*: 12px;
+  --padding-sm: 1rem;
+  --padding-lg: 45px;
+  --padding-xl: 5rem;
+  --padding-2x: 13rem;
+} */
+
+/* .text-base {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+.text-lg {
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+}
+.text-sm {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+}
+.text-xl {
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
+}
+.text-xs {
+  font-size: 0.75rem !important;
+  line-height: 1rem !important;
+}  */
+
+/* === CONFIGURACIÓN DE TEMA === */
+/* Importar todas las configuraciones de tema */
+/* @import "./theme/colors.css";
+@import "./theme/typography.css"; */
+/* @import "./theme/spacing.css"; */
+/* @import "./theme/shadows.css"; */
+/* @import "./theme/breakpoints.css"; */
+
+/* === UTILIDADES PERSONALIZADAS === */
+/* @import "./utilities/dark-mode.css"; */
+
+/* === COMPONENTES === */
+/* @layer components {
+  @import "./utilities/menu.css";
+  @import "./components/buttons.css";
+  @import "./components/forms.css";
+  @import "./components/cards.css";
+} */
+
+/* === ESTILOS BASE === */
+/* @layer base {
+  @import "./base/base.css";
+} */
+
+/* === PÁGINAS ESPECÍFICAS === */
+/* Opcional: Solo si tienes estilos específicos por página */
+/* @import "./pages/home.css"; */
+/* @import "./pages/dashboard.css"; */
+/* @import "../pages/index.astro"; */

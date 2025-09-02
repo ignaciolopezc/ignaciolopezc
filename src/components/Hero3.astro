@@ -1,0 +1,18 @@
+---
+import { Picture } from 'astro:assets';
+
+import Social from "./ui/Social.astro"
+import bgseo from '@assets/images/bgseo.png'
+
+
+
+---
+
+<!-- <div class="absolute inset-0 bg-cover bg-center bg-no-repeat " style={`background-image: url('${bgseo.src}');`}></div> -->
+
+<div class="h-screen w-screen bg-cover bg-center bg-black" style={{ backgroundImage: `url('${bgseo.src}')` }}>
+    
+      <div class="backdrop-blur-md bg-white/30 flex items-center justify-center h-screen">
+        <p class="text-lg">Frosted Glass Effect</p>
+      </div>
+    </div>
