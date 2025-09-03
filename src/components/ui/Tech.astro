@@ -1,6 +1,69 @@
 ---
 import { Picture } from 'astro:assets';
-import astro from "src/assets/icons/astro.svg";
+
+// filepath: src/components/ui/Tech.astro
+import astro from "src/assets/icons/astro.svg"
+import html from "src/assets/icons/html5.svg"
+import css from "src/assets/icons/css3.svg"
+import js from "src/assets/icons/javascript.svg"
+import github from "src/assets/icons/github-light.svg"
+import git from "src/assets/icons/git.svg"
+import react from "src/assets/icons/reactjs.svg"
+import tailwindcss from "src/assets/icons/tailwindcss.svg"
+import copilot from "src/assets/icons/copilot.svg"
+import githubcopilot from "src/assets/icons/github-copilot.svg"
+import openai from "src/assets/icons/openai.svg"
+import nodejs from "src/assets/icons/nodejs.svg"
+import markdown from "src/assets/icons/markdown.svg"
+import npm from "src/assets/icons/npm.svg"
+import python from "src/assets/icons/python.svg"
+import vite from "src/assets/icons/vitejs.svg"
+import automation from "src/assets/icons/AA360.png"
+import powerautomate from "src/assets/icons/pp.svg"
+import uipath from "src/assets/icons/uipath.png"
+import vscode from "src/assets/icons/vscode.svg"
+import firefox from "src/assets/icons/firefox.svg"
+import postmann from "src/assets/icons/postman.svg"
+import jira from "src/assets/icons/jira.svg"
+import notion from "src/assets/icons/notion.svg"
+import linkedin from "src/assets/icons/linkedin.svg"
+import sql from "src/assets/icons/sqlserver.svg"
+import postgres from "src/assets/icons/postgresql.svg"
+import mongodb from "@assets/icons/mongodb.svg"
+import mysql from "@assets/icons/mysql.svg";
+
+const lenguajes = [
+  { url: astro, name: "Astro JS" },
+  { url: html, name: "HTML5" },
+  { url: css, name: "CSS" },
+  { url: js, name: "JavaScript" },
+  { url: github, name: "Github" },
+  { url: git, name: "Git" },
+  { url: react, name: "React" },
+  { url: tailwindcss, name: "Tailwind CSS" },
+  { url: copilot, name: "Copilot" },
+  { url: githubcopilot, name: "Github Copilot" },
+  { url: openai, name: "OpenAI" },
+  { url: nodejs, name: "Node.js" },
+  { url: markdown, name: "Markdown" },
+  { url: npm, name: "NPM" },
+  { url: python, name: "Python" },
+  { url: vite, name: "Vite" },
+  { url: automation, name: "Automation" },
+  { url: powerautomate, name: "Power Automate" },
+  { url: uipath, name: "UIPath" },
+  { url: vscode, name: "VSCode" },
+  { url: firefox, name: "Firefox" },
+  { url: postmann, name: "Postman" },
+  { url: jira, name: "Jira" },
+  { url: notion, name: "Notion" },
+  { url: linkedin, name: "LinkedIn" },
+  { url: sql, name: "SQL Server" },
+  { url: postgres, name: "PostgreSQL" },
+  { url: mongodb, name: "MongoDB" },
+  { url: mysql, name: "MySQL" }
+];
+
 ---
 
 
@@ -12,225 +75,29 @@ import astro from "src/assets/icons/astro.svg";
             <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">Tech</h6>
             <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Herramientas y Tecnologia</h3>
 
-            <p class="text-slate-400 max-w-2xl mx-auto">A lo largo de mi carrera como consultor he acumulado algo de experiencia con las siguientes herramientas y tecnologias.</p>
+            <p class="text-slate-400 max-w-2xl mx-auto">A lo largo de mi carrera como consultor he acumulado algo de experiencia con las siguientes herramientas, lenguajes y tecnologias.</p>
         </div>
     
 
         <div class="flex justify-center items-center text-center mt-8">
             <ul class="list-none space-x-3 space-y-4">
+                {lenguajes.map(l => (
 
-                <!-- Lenguajes de programacion -->
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <Picture class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src={astro} alt="">
-                        <span class="text-[18px] font-medium">Astro JS</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/html5.svg" alt="">
-                        <span class="text-[18px] font-medium">HTML5</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/css3.svg" alt="">
-                        <span class="text-[18px] font-medium">CSS</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/javascript.svg" alt="">
-                        <span class="text-[18px] font-medium">JavaScript</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/git.svg" alt="">
-                        <span class="text-[18px] font-medium">Git</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300 inline-block dark:hidden" src="src/assets/icons/github-dark.svg" alt="">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300 hidden dark:inline-block" src="src/assets/icons/github-light.svg" alt="">
-                        <span class="text-[18px] font-medium">Github</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/csharp.svg" alt="">
-                        <span class="text-[18px] font-medium">C#</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/reactjs.svg" alt="">
-                        <span class="text-[18px] font-medium">React JS</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/tailwindcss.svg" alt="">
-                        <span class="text-[18px] font-medium">Tailwind CSS</span>
-                    </div>
-                </li>
-                <!-- Lenguajes de programacion -->
-                
+                    <li class="inline-block group">
+                        <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-300
+                            [filter:grayscale(50%)] group-hover:[filter:grayscale(0%)]
+                            group-hover:shadow-md
+                            group-hover:dark:shadow-gray-800
+                            group-hover:border-indigo-600/30
+                            group-hover:dark:border-indigo-600/50
+                            transition-all">
+                            <Picture class="size-3 me-2 transition-all duration-300" src={l.url} alt={l.name} />
+                            <span class="text-[18px] font-medium">{l.name}</span>
+                        </div>
+                    </li>
 
-                <!-- Inteligencia artificial -->
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/openai.svg" alt="">
-                        <span class="text-[18px] font-medium">Open AI</span>
-                    </div>
-                </li>
-
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/copilot.svg" alt="">
-                        <span class="text-[18px] font-medium">Copilot</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/github-copilot.svg" alt="">
-                        <span class="text-[18px] font-medium">Github Copilot</span>
-                    </div>
-                </li>
-                <!-- Inteligencia artificial -->
-
-                
-                <!-- BackEnd -->
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/nodejs.svg" alt="">
-                        <span class="text-[18px] font-medium">Node JS</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/markdown.svg" alt="">
-                        <span class="text-[18px] font-medium">Markdonw</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/npm.svg" alt="">
-                        <span class="text-[18px] font-medium">NPM</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/python.svg" alt="">
-                        <span class="text-[18px] font-medium">Python</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/vitejs.svg" alt="">
-                        <span class="text-[18px] font-medium">Vite</span>
-                    </div>
-                </li>
-                <!-- BackEnd -->
-
-
-                <!-- Herramienta de automatizacion -->
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/AA360.png" alt="">
-                        <span class="text-[18px] font-medium">Automation Anywhere</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-4 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/pp.svg" alt="">
-                        <span class="text-[18px] font-medium">Power Automate</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-4 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/uipath.svg" alt="">
-                        <span class="text-[18px] font-medium">UiPath</span>
-                    </div>
-                </li>
-                <!-- Herramienta de automatizacion -->
-
-
-                <!-- Aplicaciones -->
-                 <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/vscode.svg" alt="">
-                        <span class="text-[18px] font-medium">VS Code</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/firefox.svg" alt="">
-                        <span class="text-[18px] font-medium">Firefox</span>
-                    </div>
-                </li>
-                 <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/postman.svg" alt="">
-                        <span class="text-[18px] font-medium">Postman</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/jira.svg" alt="">
-                        <span class="text-[18px] font-medium">Jira</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/notion.svg" alt="">
-                        <span class="text-[18px] font-medium">Notion</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/linkedin.svg" alt="">
-                        <span class="text-[18px] font-medium">LinkedIn</span>
-                    </div>
-                </li>
-                <!-- Aplicaciones -->
-
-
-                <!-- Bases de datos  -->
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/sqlserver.svg" alt="">
-                        <span class="text-[18px] font-medium">SQL Server</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/postgresql.svg" alt="">
-                        <span class="text-[18px] font-medium">Postgres</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/mongodb.svg" alt="">
-                        <span class="text-[18px] font-medium">Mongo DB</span>
-                    </div>
-                </li>
-                <li class="inline-block">
-                    <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-500">
-                        <img class="size-3 me-2 grayscale group-hover:grayscale-0 transition-all duration-300" src="src/assets/icons/mysql.svg" alt="">
-                        <span class="text-[18px] font-medium">MySQL</span>
-                    </div>
-                </li>
-                <!-- Bases de datos  -->
-
-
+                ))}
             </ul>
         </div>
     </div>
 </section>
-
-
-
-
-        

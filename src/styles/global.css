@@ -1,9 +1,8 @@
 @import "tailwindcss";
 
-/* Se utiliza @layer para controlar el orden de la carga de los componentes */
-
 @import "./utilities/full.css";
 
+/* Se utiliza @layer para controlar el orden de la carga de los componentes */
 /* Breakpoints ----------------------------------------
 @theme {
   --breakpoint-xs: 540px;
