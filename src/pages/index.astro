@@ -11,7 +11,7 @@ import Education from '../components/Education.astro'
 
 import Hero2 from '../components/Hero2.astro'
 import { calculateYears } from '../utils/dateUtils.js';
-import Hero3 from '@src/components/Hero3.astro'
+
 
 const years = calculateYears();
 ---
@@ -21,7 +21,6 @@ const years = calculateYears();
     
     <!-- <Hero /> -->
     <Hero2 years={years}/>
-     <!-- <Hero3 /> -->
 
     <!-- <About years={years} /> -->
     <Experience />
@@ -30,7 +29,7 @@ const years = calculateYears();
     <!-- <Proyect /> -->
      <!-- <Partner /> -->
     <FAQ years={years} /> 
-    <Contact />
+    <!-- <Contact /> -->
 
 </Layout>
 
