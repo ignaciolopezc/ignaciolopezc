@@ -1,6 +1,8 @@
 ![https://github.com/ignaciolopezc](./src/assets/images/banner1.png)
 
-Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> soy Titulado de Ingenieria en Informatica con más de <span style="color:white">**11 años de experiencia en consultoria.**</span> Principalmente me desempeño como <span style="color:white">**Consultor RPA con más de 3 años de experiencia en las principales herramientas del mercado.**</span> en mis funciones como RPA developer he sido responsable en el levantamiento de procesos y desarrollo de automatizaciones en soluciones de negocio.<br>
+Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span>, soy Titulado de Ingeniería en Informática y cuento con más de <span style="color:white">**16 años de experiencia en consultoría de procesos**</span>, automatizaciones y proyectos de implementación, optimización y desarrollo para variadas industrias. Principalmente de desempeño como consultor de procesos RPA con más de <span style="color:white">**5 años de experiencia**</span> desarrollando en las <span style="color:white">**3 principales herramientas de automatización**</span> del mercado. <br /><br />
+
+He sido responsable del levantamiento de procesos y desarrollo de automatizaciones, para dar soluciones a diversos clientes del mercado tales como, Codelco, Tecno Fast, Minera las Bambas, Candelaria, Bupa, Larrain Vial, AMSA, Entre otros. <br /><br />
 
 <div align="center">
 
@@ -16,13 +18,11 @@ Hola 👋, mi nombre <span style="color:white">**Ignacio López Campos**</span> 
 </div>
 <br>
 
-Mi experiencia laboral me ha permitido consolidar técnicas de desarrollo de software e implementación de soluciones de negocios, al igual que liderar equipos de trabajo, todo esto mientras fortalecía mis conocimientos en lenguajes de programación y herramientas de desarrollo.
-Mi principal objetivo es combinar estas carreras para automatizar procesos y crear herramientas, las cuales sean soluciones eficaces y acordes a las necesidades actuales de los diferentes mercados.
+Mi trayectoria profesional ha permitido consolidar técnicas de desarrollo de software e implementación de soluciones, acordes a las exigencias actuales de los negocios. Al mismo tiempo he adquirido conocimientos en lenguajes de programación y herramientas de desarrollo. <span style="color:white">**Hoy mi fortaleza es combinar estos conocimientos para automatizar procesos**</span> y crear herramientas capaces de solucionar, de forma eficiente las necesidades actuales de mis clientes. <br /><br />
 
-Antes de llegar aquí, estuve <span style="color:white">**5 años trabajando como consultor BPC**</span> para grandes empresas como PwC Chile Axity Chile y TBusiness En este rol tome grandes desafíos, incluidos el desarrollo e implementación de herramientas de procesos Forecast y Budget, con la plataforma SAP BPC generando reportes e indicadores de control para grandes empresas de minería y otros segmentos de mercado. Durante este tiempo logre avanzar y redefinir desafíos, mediante exhaustivas entrevistas con clientes para conocer sus necesidades, con la finalidad de diseñar y desarrollar soluciones compatibles a sus necesidades.
-<br /><br />
+Dentro de mi carrera profesional como Consultor BPC estuve en grandes empresas como PwC Chile, Axity Chile y TBusiness En este rol tomé grandes desafíos; como el desarrollo e implementación de herramientas de levantamiento de procesos y consultoría SAP BPC. Generando reportes e indicadores de control para grandes empresas de minería y otros segmentos de mercado. Debo mencionar que he utilizado distintos tipos de metodologías para las entrevistas y comunicación con mis clientes y equipos, para avanzar y entender cómo funcionan, cuáles son sus metas y objetivos entregando soluciones acordes pero que generen un impacto en las áreas de mejora. <br /><br />
 
-## Encuéntrame en:
+## Puedes encuéntrame en:
 
 [![LINKEDIN](https://img.shields.io/badge/LinkedIn-www.linkedin.com/in/ignaciolopezcampos-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/ignaciolopezcampos/)
 

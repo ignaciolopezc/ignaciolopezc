@@ -1,0 +1,45 @@
+---
+import { Picture } from "astro:assets";
+import amsa from "@assets/logos/amsa.webp"
+import bupa from "@assets/logos/bupa.png"
+import candelaria from "@assets/logos/candelaria.jpg"
+import codelco from "@assets/logos/codelco.png"
+import larrainvial from "@assets/logos/larrainvial.jpg"
+import lasbambas from "@assets/logos/lasbambas.png"
+import tecnofast2 from "@assets/logos/tecnofast2.jpg"
+
+---
+
+
+<div class="container-fluid relative overflow-hidden">
+    <div class="grid grid-cols-1 mt-8">
+        <div class="slider relative overflow-hidden m-auto mb-4 before:content-[''] before:absolute before:top-0 before:start-0 before:z-2 after:content-[''] after:absolute after:top-0 after:end-0 after:z-2">
+            <div class="slide-track flex items-center grayscale">
+
+                
+                <div class="slide h-auto md:w-[360px] w-72 m-2">
+                    <div class="mx-auto py-4"><Picture src={amsa} alt="AMSA" width='200' height='200' ></Picture></div>
+                </div>
+                <div class="slide h-auto md:w-[360px] w-72 m-2">
+                    <div class="mx-auto py-4"><Picture src={bupa} alt="AMSA" width='200' height='200' ></Picture></div>
+                </div>
+                <div class="slide h-auto md:w-[360px] w-72 m-2">
+                    <div class="mx-auto py-4"><Picture src={candelaria} alt="AMSA" width='200' height='200' ></Picture></div>
+                </div>
+                <div class="slide h-auto md:w-[360px] w-72 m-2">
+                    <div class="mx-auto py-4"><Picture src={codelco} alt="AMSA" width='200' height='200' ></Picture></div>
+                </div>
+                <div class="slide h-auto md:w-[360px] w-72 m-2">
+                    <div class="mx-auto py-4"><Picture src={larrainvial} alt="AMSA" width='300' height='200' ></Picture></div>
+                </div>
+                <div class="slide h-auto md:w-[360px] w-72 m-2">
+                    <div class="mx-auto py-4"><Picture src={lasbambas} alt="AMSA" width='200' height='200' ></Picture></div>
+                </div>
+                <div class="slide h-auto md:w-[360px] w-72 m-2">
+                    <div class="mx-auto py-4"><Picture src={tecnofast2} alt="AMSA" width='200' height='200' ></Picture></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
