@@ -4,7 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  // redirects: { "*": "/" },
+  output: "server",
+  redirects: { "*": "/" },
   vite: {
     plugins: [tailwindcss()],
   },
