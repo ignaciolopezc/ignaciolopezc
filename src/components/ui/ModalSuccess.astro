@@ -1,0 +1,112 @@
+---
+export interface Props {
+  isOpen?: boolean;
+  title?: string;
+  message?: string;
+  onClose?: string;
+}
+
+const { 
+  isOpen = false, 
+  title = "Message Sent!", 
+  message = "Thank you for your message. We'll get back to you soon.",
+  onClose = "closeModal()"
+} = Astro.props;
+---
+
+<!-- /* From https://css.glass */
+background: rgba(255, 255, 255, 0.46);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9px);
+-webkit-backdrop-filter: blur(9px); -->
+
+
+<!-- style="background-color: rgba(0, 0, 0, 0.5);" -->
+
+<!-- Modal Backdrop -->
+<div id="success-modal" class={`fixed inset-0 z-50 flex items-center justify-center p-4 transition-all duration-300 backdrop-blur-sm ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}
+		style= "background: rgba(52, 74, 112, 0.7);
+				box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+				backdrop-filter: blur(9px);
+				-webkit-backdrop-filter: blur(9px);"
+		>
+	<!-- Modal Container -->
+
+	
+  	<div class={`dark:bg-gradient-to-r from-emerald-700 to-slate-800 rounded-lg shadow-xl max-w-md w-full p-6 transform transition-all duration-300 ${isOpen ? 'scale-100 translate-y-0' : 'scale-95 translate-y-4'}`} role="dialog" aria-modal="true" aria-labelledby="modal-title">
+		<!-- Modal Content -->
+    	<div class="flex items-center gap-4">
+      	
+      		<div class="flex-1 text-white">
+				<h3 id="modal-title" class="text-lg font-semibold mb-1"> {title} </h3>
+				<p class="text-sm leading-relaxed"> {message} </p>
+			</div>
+      
+			<div class="flex-shrink-0">
+				<div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+					<svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+						<path  stroke-linecap="round"  stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+					</svg>
+				</div>
+			</div>
+		</div>
+    
+    
+		<div class="mt-6 flex justify-end">
+			<button type="button" class="px-4 py-2 text-sm font-medium text-white bg-slate-900 rounded-md " onclick={onClose}>
+				X
+			</button>
+		</div>
+	</div>
+</div>
+
+<script>
+  // Modal functionality
+  function showSuccessModal() {
+    const modal = document.getElementById('success-modal');
+    if (modal) {
+      modal.classList.remove('opacity-0', 'invisible');
+      modal.classList.add('opacity-100', 'visible');
+      
+      const container = modal.querySelector('div[role="dialog"]');
+      if (container) {
+        container.classList.remove('scale-95', 'translate-y-4');
+        container.classList.add('scale-100', 'translate-y-0');
+      }
+    }
+  }
+  
+  function closeModal() {
+    const modal = document.getElementById('success-modal');
+    if (modal) {
+      modal.classList.remove('opacity-100', 'visible');
+      modal.classList.add('opacity-0', 'invisible');
+      
+      const container = modal.querySelector('div[role="dialog"]');
+      if (container) {
+        container.classList.remove('scale-100', 'translate-y-0');
+        container.classList.add('scale-95', 'translate-y-4');
+      }
+    }
+  }
+  
+  // Close modal when clicking backdrop
+  document.addEventListener('click', (e) => {
+    const modal = document.getElementById('success-modal');
+    if (e.target === modal) {
+      closeModal();
+    }
+  });
+  
+  // Close modal with Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeModal();
+    }
+  });
+  
+  // Make functions globally available
+  window.showSuccessModal = showSuccessModal;
+  window.closeModal = closeModal;
+</script>

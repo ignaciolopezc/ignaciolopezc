@@ -1,0 +1,126 @@
+---
+export interface Props {
+  isOpen?: boolean;
+  title?: string;
+  message?: string;
+  onClose?: string;
+}
+
+const { 
+  isOpen = false, 
+  title = "Message Failed!", 
+  message = "Sorry, there was an error sending your message. Please try again.",
+  onClose = "closeErrorModal()"
+} = Astro.props;
+---
+
+<div id="error-modal" class={`fixed inset-0 z-50 flex items-center justify-center p-4 transition-all duration-300 backdrop-blur-sm ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}
+		style= "background: rgba(52, 74, 112, 0.7);
+				box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+				backdrop-filter: blur(9px);
+				-webkit-backdrop-filter: blur(9px);"
+		>
+  <!-- Backdrop -->
+  <div 
+    class="fixed inset-0 bg-black/40 backdrop-blur-sm animate-fade-in"
+    onclick={onClose}
+  ></div>
+
+  <!-- Modal Content -->
+  <div class="relative rounded-lg shadow-xl max-w-xl w-full animate-scale-in dark:bg-gradient-to-r from-red-800 from-0% to-slate-800 via-slate-800 to-25% ">
+    <div class="px-4 py-3 mx-5 my-4">
+      <div class="flex items-center gap-3">
+        <!-- Error Icon (Left) -->
+        <div class="flex-shrink-0">
+          <div class="w-6 h-6 bg-red-600 rounded-full flex items-center justify-center">
+            <svg 
+              class="w-4 h-4 text-white" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+              stroke-width="2.5"
+            >
+              <path 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Text Content (Center) -->
+        <div class="flex-1 min-w-0">
+          <h3 id="error-modal-title" class="text-white font-medium text-sm leading-tight">
+            {title}
+          </h3>
+          <p class="text-red-200 text-xs mt-2 leading-tight">
+            {message}
+          </p>
+        </div>
+
+        <!-- Close Button (Right) -->
+        <button 
+          type="button"
+          class="flex-shrink-0 text-red-300 hover:text-white transition-colors duration-200 p-1"
+          onclick={onClose}
+          aria-label="Close modal"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Modal functionality
+  function showErrorModal() {
+    const modal = document.getElementById('error-modal');
+    if (modal) {
+      modal.classList.remove('opacity-0', 'invisible');
+      modal.classList.add('opacity-100', 'visible');
+      
+      const container = modal.querySelector('div[role="dialog"]');
+      if (container) {
+        container.classList.remove('scale-95', 'translate-y-4');
+        container.classList.add('scale-100', 'translate-y-0');
+      }
+    }
+  }
+  
+  function closeErrorModal() {
+    const modal = document.getElementById('error-modal');
+    if (modal) {
+      modal.classList.remove('opacity-100', 'visible');
+      modal.classList.add('opacity-0', 'invisible');
+      
+      const container = modal.querySelector('div[role="dialog"]');
+      if (container) {
+        container.classList.remove('scale-100', 'translate-y-0');
+        container.classList.add('scale-95', 'translate-y-4');
+      }
+    }
+  }
+  
+  // Close modal when clicking backdrop
+  document.addEventListener('click', (e) => {
+    const modal = document.getElementById('error-modal');
+    if (e.target === modal) {
+      closeErrorModal();
+    }
+  });
+  
+  // Close modal with Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeErrorModal();
+    }
+  });
+  
+  // Make functions globally available
+  window.showErrorModal = showErrorModal;
+  window.closeErrorModal = closeErrorModal;
+</script>

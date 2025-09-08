@@ -12,7 +12,7 @@
             
 
             <!-- <form method="post" name="myForm" id="myForm" onsubmit="return validateForm()"> -->
-            <form action="api/send">
+        <form action="api/send" method="POST" name="formData" id="formData">
             <p class="mb-0" id="error-msg"></p>
             <div id="simple-msg"></div>
             <div class="grid lg:grid-cols-12 lg:gap-6">
@@ -20,7 +20,7 @@
                     <div class="text-start">
                         <label for="name" class="font-semibold">Nombre:</label>
                         <div class="form-icon relative mt-2">
-                            <input name="name" id="name" type="text" class="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Agrega tu nombre y apellido :">
+                            <input name="name" id="name" type="text"  class="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Agrega tu nombre y apellido :">
                         </div>
                     </div>
                 </div>
@@ -48,18 +48,169 @@
             <div class="grid grid-cols-1">
                 <div class="mb-5">
                     <div class="text-start">
-                        <label for="comments" class="font-semibold">Mensaje:</label>
+                        <label for="message" class="font-semibold">Mensaje:</label>
                         <div class="form-icon relative mt-2">
                             <i data-feather="message-circle" class="size-4 absolute top-3 start-4"></i>
-                            <textarea name="comments" id="comments" class="form-input ps-11 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Tu mensaje :"></textarea>
+                            <textarea name="message" id="message" class="form-input ps-11 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Tu mensaje :"></textarea>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <button type="submit" id="submit" name="send" class="py-2 px-5 font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md justify-center flex items-center">Enviar</button> -->
             <button type="submit" id="submit" name="send" class="py-2 mb-10 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-4"><i class="uil uil-phone"></i> Enviar </button>
         </form>
+
+
+        
+
+<div id="toast-simple" class="flex items-center w-full max-w-xs p-4 space-x-4 rtl:space-x-reverse text-gray-500 bg-white divide-x rtl:divide-x-reverse divide-gray-200 rounded-lg shadow-sm dark:text-gray-400 dark:divide-gray-700 dark:bg-gray-800" role="alert">
+    <svg class="w-5 h-5 text-blue-600 dark:text-blue-500 rotate-45" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 17 8 2L9 1 1 19l8-2Zm0 0V9"/>
+    </svg>
+    <div class="ps-4 text-sm font-normal">Message sent successfully.</div>
+</div>
+
+
+
+
+
+<!-- Modal toggle -->
+<button data-modal-target="static-modal" data-modal-toggle="static-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+  Toggle modal
+</button>
+
+<!-- Main modal -->
+<div id="static-modal" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-2xl max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow-sm dark:bg-gray-700">
+            <!-- Modal header -->
+            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600 border-gray-200">
+                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                    Static modal
+                </h3>
+                <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="static-modal">
+                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
+            </div>
+            <!-- Modal body -->
+            <div class="p-4 md:p-5 space-y-4">
+                <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                    With less than a month to go before the European Union enacts new consumer privacy laws for its citizens, companies around the world are updating their terms of service agreements to comply.
+                </p>
+                <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                    The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them.
+                </p>
+            </div>
+            <!-- Modal footer -->
+            <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
+                <button data-modal-hide="static-modal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">I accept</button>
+                <button data-modal-hide="static-modal" type="button" class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Decline</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 
         </div>
     </div>
 </section>
+
+
+
+<script>
+    const form = document.querySelector('form')
+    form?.addEventListener('submit', async (e) => {
+            e.preventDefault()
+    try{
+        var name = document.forms["formData"]["name"].value;
+        if (name == "" || name == null) {
+            document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Por favor ingresa tu nombre*</div>";
+            return false;
+        }
+        
+
+        document.getElementById('simple-msg').innerHTML = "<div class='alert alert-warning error_message'>*gracias por tu mensaje*</div>";
+        document.getElementById('error-msg').innerHTML = "";
+        form.reset()
+        return true;
+    }
+    catch(error){
+        console.log(error)
+    }
+
+		// const form = e.target as HTMLFormElement
+		// const formData = new FormData(form)
+
+		// // codigo para debug de un formulario
+		// console.log(JSON.stringify([...formData]))
+
+	
+	})
+    
+// try {
+//     function validateForm() {
+//         var name = document.forms["myForm"]["name"].value;
+//         var email = document.forms["myForm"]["email"].value;
+//         var subject = document.forms["myForm"]["subject"].value;
+//         var comments = document.forms["myForm"]["comments"].value;
+//         document.getElementById("error-msg").style.opacity = 0;
+//         document.getElementById('error-msg').innerHTML = "";
+//         if (name == "" || name == null) {
+//             document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter a Name*</div>";
+//             fadeIn();
+//             return false;
+//         }
+//         if (email == "" || email == null) {
+//             document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter a Email*</div>";
+//             fadeIn();
+//             return false;
+//         }
+//         if (subject == "" || subject == null) {
+//             document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter a Subject*</div>";
+//             fadeIn();
+//             return false;
+//         }
+//         if (comments == "" || comments == null) {
+//             document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter a Comments*</div>";
+//             fadeIn();
+//             return false;
+//         }
+//         var xhttp = new XMLHttpRequest();
+//         xhttp.onreadystatechange = function () {
+//             if (this.readyState == 4 && this.status == 200) {
+//                 document.getElementById("simple-msg").innerHTML = this.responseText;
+//                 document.forms["myForm"]["name"].value = "";
+//                 document.forms["myForm"]["email"].value = "";
+//                 document.forms["myForm"]["subject"].value = "";
+//                 document.forms["myForm"]["comments"].value = "";
+//             }
+//         };
+//         xhttp.open("POST", "php/contact.php", true);
+//         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+//         xhttp.send("name=" + name + "&email=" + email + "&subject=" + subject + "&comments=" + comments);
+//         return false;
+//     }
+
+//     function fadeIn() {
+//         var fade = document.getElementById("error-msg");
+//         var opacity = 0;
+//         var intervalID = setInterval(function () {
+//             if (opacity < 1) {
+//                 opacity = opacity + 0.5
+//                 fade.style.opacity = opacity;
+//             } else {
+//                 clearInterval(intervalID);
+//             }
+//         }, 200);
+//     }
+// } catch (error) {
+    
+// }
+</script>

@@ -1,6 +1,22 @@
+// {
+//   "extends": "astro/tsconfigs/base",
+//   "include": [".astro/types.d.ts", "./src/**/*.{astro,html,js,jsx,ts,tsx}"],
+//   "exclude": ["dist"],
+//   "compilerOptions": {
+//     "baseUrl": ".",
+//     "paths": {
+//       "@src/*": ["./src/*"],
+//       "@assets/*": ["./src/assets/*"],
+//       "@components/*": ["./src/components/*"],
+//       "@layouts/*": ["./src/layouts/*"],
+//       "@pages/*": ["./src/pages/*"]
+//     }
+//   }
+// }
+
 {
   "extends": "astro/tsconfigs/base",
-  "include": [".astro/types.d.ts", "./src/**/*.{astro,html,js,jsx,ts,tsx}"],
+  "include": [".astro/types.d.ts", "**/*"],
   "exclude": ["dist"],
   "compilerOptions": {
     "baseUrl": ".",
