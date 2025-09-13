@@ -47,5 +47,3 @@ Thumbs.db
 *.pem
 *.key
 *.crt
-*.prettierrc
-eslint.config.js
