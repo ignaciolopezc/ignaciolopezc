@@ -3,6 +3,7 @@ dist/
 /dist
 /build
 /.vercel
+.vercel
 
 # Dependencias
 /node_modules
