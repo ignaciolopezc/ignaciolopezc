@@ -1,11 +1,53 @@
-import { c as createComponent, m as maybeRenderHead, a as renderComponent, r as renderTemplate, b as createAstro, s as spreadAttributes, u as unescapeHTML, d as addAttribute, e as renderScript } from '../chunks/astro/server_DhChbu1l.mjs';
+import { c as createComponent, m as maybeRenderHead, b as addAttribute, a as renderComponent, r as renderTemplate, d as createAstro, s as spreadAttributes, u as unescapeHTML } from '../chunks/astro/server_Cq2svzJQ.mjs';
 import 'kleur/colors';
-import { a as $$Social, $ as $$Layout } from '../chunks/layout_C1ZUfxTI.mjs';
-import '../chunks/index_DPYU2bcR.mjs';
-import { $ as $$Picture } from '../chunks/_astro_assets_CDy3BbF-.mjs';
+import { a as $$Social, $ as $$Layout } from '../chunks/layout_IcJXki7M.mjs';
+import '../chunks/index_MaT6fT73.mjs';
+import { $ as $$Picture } from '../chunks/_astro_assets_DXduDAOv.mjs';
 import 'clsx';
 /* empty css                                 */
+import { jsx, jsxs } from 'react/jsx-runtime';
+import { useState } from 'react';
 export { renderers } from '../renderers.mjs';
+
+const bgseo = new Proxy({"src":"/_astro/bgseo.vygcX-zD.png","width":1920,"height":1080,"format":"png"}, {
+						get(target, name, receiver) {
+							if (name === 'clone') {
+								return structuredClone(target);
+							}
+							if (name === 'fsPath') {
+								return "C:/Users/ilopez/Desktop/Ignaciolopezc/src/assets/images/bgseo.png";
+							}
+							
+							return target[name];
+						}
+					});
+
+const perfil = new Proxy({"src":"/_astro/Linkedin2.DKAfR_K-.png","width":1120,"height":928,"format":"png"}, {
+						get(target, name, receiver) {
+							if (name === 'clone') {
+								return structuredClone(target);
+							}
+							if (name === 'fsPath') {
+								return "C:/Users/ilopez/Desktop/Ignaciolopezc/src/assets/perfil/Linkedin2.png";
+							}
+							
+							return target[name];
+						}
+					});
+
+const $$Hero = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${maybeRenderHead()}<section id="/"> <div class="relative md:py-64 py-36 items-center bg-center bg-no-repeat bg-cover"${addAttribute({ backgroundImage: `url('${bgseo.src}')` }, "style")}> <div class="container relative"> <div class="relative grid md:grid-cols-12 grid-cols-1 items-center mt-10 gap-[30px]"> <div class="md:col-span-7"> <div class="md:me-8"> <p class="text-slate-400 text-lg max-w-xl">Hola 👋, me presento mi nombre es.</p> <h4 class="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-white dark:text-white relative">Ignacio López Campos <br> <span class=" relative text-indigo-600">Consultor de procesos</span><br> <span class=" relative text-indigo-600">RPA - Automatización</span> </h4> <p class="text-slate-400 text-lg max-w-xl">
+Cuento con más de 16 años de experiencia en consultoría de negocios, automatización de procesos y proyectos de implementación, optimización y desarrollo para variadas industrias del mercado.
+</p> <div class="relative mt-8 px-0 text-start"> ${renderComponent($$result, "Social", $$Social, {})} </div> </div> </div> <div class="md:col-span-5"> <div class="relative"> <div class="relative rounded-xl overflow-hidden shadow-md dark:shadow-gray-800"> <div class="w-full py-72 bg-slate-400  bg-cover bg-no-repeat bg-top jarallax"${addAttribute({ backgroundImage: `url('${perfil.src}')` }, "style")} data-jarallax data-speed="0.5"></div> </div> </div> </div> </div> </div> </div> <div class="relative"> <div class="shape absolute sm:-bottom-px -bottom-[2px] start-0 end-0 overflow-hidden text-white dark:text-slate-900"> <svg class="w-full h-auto scale-[2.0] origin-top" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path> </svg> </div> </div> <div class="relative md:pb-24 pb-16 "> <div class="container relative text-white "> <div class="md:flex justify-center"> <div class="lg:w-3/4 md:w-full relative -mt-16"> <div class="p-6 bg-slate-900 rounded-md shadow shadow-gray-800 border border-slate-700 "> <div class="md:flex justify-center"> <div class="md:w-1/3"> <div class="text-center"> <h6 class="mb-0">Proyectos Realizados</h6> <h2 class="mb-0 text-4xl mt-3 font-bold">+30</h2> </div> </div> <div class="md:w-1/3 mt-8 md:mt-0"> <div class="text-center"> <h6 class="mb-0">Automatizaciones Implementadas</h6> <h2 class="mb-0 text-4xl mt-3 font-bold">+200</h2> </div> </div> <div class="md:w-1/3 mt-8 md:mt-0"> <div class="text-center"> <h6 class="mb-0">Años de Experiencia</h6> <h2 class="mb-0 text-4xl mt-3 font-bold">+16</h2> </div> </div> </div> </div> </div> </div> </div> <div class="container relative md:mt-24 mt-16 text-white"> <div class="grid grid-cols-1 pb-8 text-center"> <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">About me</h6> <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Acerca de mí</h3> </div> <div class="flex justify-center"> <div class="lg:max-w-4xl w-full text-center text-slate-200"> <p>
+Hola 👋 Mi nombre es Ignacio López Campos, Titulado de Ingeniería en Informática, Cuento con experiencia en Consultoría de procesos, con más de 5 años de experiencia en desarrollo de automatizaciones en las principales herramientas del mercado.
+</p> <p class="mt-8">
+He sido responsable del levantamiento de procesos y desarrollo de automatizaciones, para dar soluciones a diversos clientes del mercado tales como, Codelco, Tecno Fast, Minera las Bambas, Candelaria, Bupa, Larrain Vial, AMSA, Entre otros.
+</p> <p class="mt-8">
+Mi trayectoria profesional ha permitido consolidar técnicas de desarrollo de software e implementación de soluciones, acordes a las exigencias actuales de los negocios. Al mismo tiempo he adquirido conocimientos en lenguajes de programación y herramientas de desarrollo. Hoy mi fortaleza es combinar estos conocimientos para automatizar procesos y crear herramientas capaces de solucionar, de forma eficiente las necesidades actuales de mis clientes.
+</p> <p class="mt-8">
+Dentro de mi carrera profesional como Consultor BPC estuve en grandes empresas como PwC Chile, Axity Chile y TBusiness En este rol tomé grandes desafíos; como el desarrollo e implementación de herramientas de levantamiento de procesos y consultoría SAP BPC. Generando reportes e indicadores de control para grandes empresas de minería y otros segmentos de mercado. Debo mencionar que he utilizado distintos tipos de metodologías para las entrevistas y comunicación con mis clientes y equipos, para avanzar y entender cómo funcionan, cuáles son sus metas y objetivos entregando soluciones acordes pero que generen un impacto en las áreas de mejora.
+</p> </div> </div> </div> </div> </section>`;
+}, "C:/Users/ilopez/Desktop/Ignaciolopezc/src/components/Hero.astro", void 0);
 
 const ibm = new Proxy({"src":"/_astro/ibm.B-A6w-W8.jpg","width":100,"height":100,"format":"jpg"}, {
 						get(target, name, receiver) {
@@ -86,7 +128,7 @@ const pwc = new Proxy({"src":"/_astro/pwc.BiiiP3CQ.jpg","width":100,"height":100
 					});
 
 const $$Experience = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<section id="experience" class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800"> <div class="container relative"> <div class="grid grid-cols-1 pb-8 text-center"> <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">Experience</h6> <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Experiencia Laboral</h3> <p class="text-slate-400 max-w-2xl mx-auto">Como consultor de procesos RPA tengo experiencia en variadas metodologias y etapas de proyectos, ya sean de implementación o desarrollo.</p> </div> <div class="grid grid-cols-1 mt-8"> <div class="relative after:content-[''] after:absolute after:top-0 md:after:end-0 md:after:start-0 after:w-px after:h-full md:after:m-auto after:border-s-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ms-3 md:ms-0"> <!--Start content--> <div class="ms-8 md:ms-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:end-0 md:after:start-0 after:-start-9 before:content-[''] before:absolute md:before:mx-auto md:before:end-0 md:before:start-0 before:-start-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900"> <div class="grid md:grid-cols-2"> <div class="md:text-end md:me-8 relative"> ${renderComponent($$result, "Picture", $$Picture, { "src": ibm, "alt": "ibm", "width": ibm.width, "height": ibm.height, "format": ibm.format, "class": "rounded-full size-9 md:ms-auto" })} <h5 class="my-2 font-semibold text-lg">IBM.</h5> <h6 class="text-slate text-sm mb-0">Ene 2025 - Jun 2025</h6> </div> <div class="ltr:float-left rtl:float-right text-start ms-8 mt-6 md:mt-0"> <h5 class="title mb-1 font-semibold">Consultor de procesos senior RPA.</h5> <p class="mt-3 mb-0 text-slate-600 dark:text-slate-200">Consultor de procesos RPA en Automation Anywhere encargado de completar el levantamiento de variados procesos para la migración de SAP ECC a SAP S4 en la empresa minera Codelco, el levantamiento, documentación se realizó en conjunto con las áreas de Pago a Proveedores, Finanzas y Contabilidad.
+  return renderTemplate`${maybeRenderHead()}<section id="experience" class="relative md:py-24 py-16 bg-slate-800 text-white"> <div class="container relative"> <div class="grid grid-cols-1 pb-8 text-center"> <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">Experience</h6> <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Experiencia Laboral</h3> <p class="text-slate-400 max-w-2xl mx-auto">Como consultor de procesos RPA tengo experiencia en variadas metodologias y etapas de proyectos, ya sean de implementación o desarrollo.</p> </div> <div class="grid grid-cols-1 mt-8"> <div class="relative after:content-[''] after:absolute after:top-0 md:after:end-0 md:after:start-0 after:w-px after:h-full md:after:m-auto after:border-s-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ms-3 md:ms-0"> <!--Start content--> <div class="ms-8 md:ms-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:end-0 md:after:start-0 after:-start-9 before:content-[''] before:absolute md:before:mx-auto md:before:end-0 md:before:start-0 before:-start-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900"> <div class="grid md:grid-cols-2"> <div class="md:text-end md:me-8 relative"> ${renderComponent($$result, "Picture", $$Picture, { "src": ibm, "alt": "ibm", "width": ibm.width, "height": ibm.height, "format": ibm.format, "class": "rounded-full size-9 md:ms-auto" })} <h5 class="my-2 font-semibold text-lg">IBM.</h5> <h6 class="text-slate text-sm mb-0">Ene 2025 - Jun 2025</h6> </div> <div class="ltr:float-left rtl:float-right text-start ms-8 mt-6 md:mt-0"> <h5 class="title mb-1 font-semibold">Consultor de procesos senior RPA.</h5> <p class="mt-3 mb-0 text-slate-600 dark:text-slate-200">Consultor de procesos RPA en Automation Anywhere encargado de completar el levantamiento de variados procesos para la migración de SAP ECC a SAP S4 en la empresa minera Codelco, el levantamiento, documentación se realizó en conjunto con las áreas de Pago a Proveedores, Finanzas y Contabilidad.
 <br><br> Todos los procesos seleccionados se automatizaron utilizando Automation Anywhere 360 y su Control Room para calendarizar las distintas actividades y tareas que realizan de manera diaria y mensual, estas actividades contemplan el tratamiento de grandes cantidades de datos, la implementación de RPA les permiten a los usuarios centrarse en la gestión del proceso y no al procesamiento de tareas repetitivas.
 </p> </div> </div> </div> <!--End content--> <!--Start content--> <div class="mt-12 ms-8 md:ms-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:end-0 md:after:start-0 after:-start-9 before:content-[''] before:absolute md:before:mx-auto md:before:end-0 md:before:start-0 before:-start-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900"> <div class="grid md:grid-cols-2"> <div class="text-start ms-8 relative md:order-2"> ${renderComponent($$result, "Picture", $$Picture, { "src": tecnofast, "alt": "ibm", "width": ibm.width, "height": ibm.height, "format": ibm.format, "class": "rounded-full size-9 md:me-auto" })} <h5 class="my-2 font-semibold text-lg">Tecno Fast.</h5> <h6 class="text-slate text-sm mb-0">Nov 2023 - Ago 2024</h6> </div> <div class="ltr:float-left rtl:float-right md:text-end md:me-8 mt-6 md:mt-0 md:order-1"> <h5 class="text-start title mb-1 font-semibold">Consultor de procesos RPA.</h5> <p class="mt-3 mb-0 text-start text-slate-600 dark:text-slate-200">Consultor de procesos responsable del levantamiento, diagrama, publicación y control de más de 50 flujos de procesos para su estandarización, escalamiento y optimización. Estos fueron discutidos con las áreas de negocios para disminuir tiempos de aprobación y mejorar la comunicación entre áreas de negocio.
 <br><br> Consultor de automatización RPA responsable de la implementación y puesta en marcha de Power Automate para su integración con SAP Business One por medio de la Di API, Docuware y el Banco Central. Estas tecnologías se aplicaron para optimizar los procesos de cesión y contabilización de facturas, Indicadores económicos para Chile y sus filiales.
@@ -109,21 +151,23 @@ var __freeze = Object.freeze;
 var __defProp = Object.defineProperty;
 var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(cooked.slice()) }));
 var _a;
-const $$Astro$4 = createAstro();
+const $$Astro$2 = createAstro();
 const $$FAQ = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$FAQ;
   Astro2.props.years || 12;
   const yearsRPA = Astro2.props.years - 11 || 5;
-  return renderTemplate(_a || (_a = __template(["", `<section id="faq" class="container relative md:mt-24 my-16" data-astro-cid-al2ca2vr> <div class="grid grid-cols-1 pb-8 text-center" data-astro-cid-al2ca2vr> <div class="grid grid-cols-1 pb-4 text-center" data-astro-cid-al2ca2vr> <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2" data-astro-cid-al2ca2vr>FAQ's</h6> <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold" data-astro-cid-al2ca2vr>Respuestas a preguntas frecuentes</h3> <p class="text-slate-400 max-w-2xl mx-auto" data-astro-cid-al2ca2vr>En esta seccion podras encontrar respuestas a preguntas frecuentes sobre mi experiencia como consultor de procesos de automatizaci\xF3n y las distintas metodologias que he utilizado.</p> </div> </div> <div class="relative items-center gap-[30px]" data-astro-cid-al2ca2vr> <div id="accordion-collapse" data-accordion="collapse" data-astro-cid-al2ca2vr> <div class="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden" data-astro-cid-al2ca2vr> <h2 class="text-base font-semibold" id="accordion-collapse-heading-1" data-astro-cid-al2ca2vr> <button type="button" class="flex justify-between items-center p-5 w-full font-medium text-start hover:bg-gray-50 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1" data-astro-cid-al2ca2vr> <span data-astro-cid-al2ca2vr>\xBF Tienes experiencia en herramientas de automatizacion ?</span> <svg data-accordion-icon class="size-4 shrink-0 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-astro-cid-al2ca2vr> <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-al2ca2vr></path> </svg> </button> </h2> <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1" data-astro-cid-al2ca2vr> <div class="p-5" data-astro-cid-al2ca2vr> <p class="text-slate-400 dark:text-gray-400" data-astro-cid-al2ca2vr>
+  return renderTemplate(_a || (_a = __template(["", `<section id="faq" class="relative md:py-24 py-16 text-white" data-astro-cid-al2ca2vr> <div class="container relative" data-astro-cid-al2ca2vr> <div class="grid grid-cols-1 pb-8 text-center" data-astro-cid-al2ca2vr> <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2" data-astro-cid-al2ca2vr>FAQ's</h6> <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold" data-astro-cid-al2ca2vr>Respuestas a preguntas frecuentes</h3> <p class="text-slate-400 max-w-2xl mx-auto" data-astro-cid-al2ca2vr>
+En esta seccion podras encontrar respuestas a preguntas frecuentes sobre mi experiencia como consultor de procesos de automatizaci\xF3n y las distintas metodologias que he utilizado.
+</p> </div> <div class="relative items-center gap-[30px]" data-astro-cid-al2ca2vr> <div id="accordion-collapse" data-accordion="collapse" data-astro-cid-al2ca2vr> <div class="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden" data-astro-cid-al2ca2vr> <h2 class="text-base font-semibold" id="accordion-collapse-heading-1" data-astro-cid-al2ca2vr> <button type="button" class="flex justify-between items-center p-5 w-full font-medium text-start hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1" data-astro-cid-al2ca2vr> <span data-astro-cid-al2ca2vr>\xBF Tienes experiencia en herramientas de automatizacion ?</span> <svg data-accordion-icon class="size-4 shrink-0 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-astro-cid-al2ca2vr> <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-al2ca2vr></path> </svg> </button> </h2> <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1" data-astro-cid-al2ca2vr> <div class="p-5" data-astro-cid-al2ca2vr> <p class="text-slate-400 dark:text-gray-400" data-astro-cid-al2ca2vr>
 S\xED, tengo m\xE1s de `, ` a\xF1os de experiencia aplicando herramientas l\xEDderes de automatizaci\xF3n como UiPath, Automation Anywhere y Power Automate. Las he utilizado para dise\xF1ar, implementar y mantener soluciones RPA en distintos sectores, logrando mejoras medibles en eficiencia, trazabilidad y reducci\xF3n de errores operativos
-</p> </div> </div> </div> <div class="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4" data-astro-cid-al2ca2vr> <h2 class="text-base font-semibold" id="accordion-collapse-heading-2" data-astro-cid-al2ca2vr> <button type="button" class="flex justify-between items-center p-5 w-full font-medium text-start" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2" data-astro-cid-al2ca2vr> <span data-astro-cid-al2ca2vr>\xBF Cual es su experiencia en la identificacion y mapeo de procesos ?</span> <svg data-accordion-icon class="size-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-astro-cid-al2ca2vr> <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-al2ca2vr></path> </svg> </button> </h2> <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2" data-astro-cid-al2ca2vr> <div class="p-5" data-astro-cid-al2ca2vr> <p class="text-slate-400 dark:text-gray-400" data-astro-cid-al2ca2vr>
+</p> </div> </div> </div> <div class="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4" data-astro-cid-al2ca2vr> <h2 class="text-base font-semibold" id="accordion-collapse-heading-2" data-astro-cid-al2ca2vr> <button type="button" class="flex justify-between items-center p-5 w-full font-medium text-start hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2" data-astro-cid-al2ca2vr> <span data-astro-cid-al2ca2vr>\xBF Cual es su experiencia en la identificacion y mapeo de procesos ?</span> <svg data-accordion-icon class="size-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-astro-cid-al2ca2vr> <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-al2ca2vr></path> </svg> </button> </h2> <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2" data-astro-cid-al2ca2vr> <div class="p-5" data-astro-cid-al2ca2vr> <p class="text-slate-400 dark:text-gray-400" data-astro-cid-al2ca2vr>
 He trabajado extensamente en la identificaci\xF3n y mapeo de procesos tanto operativos como administrativos. Utilizo entrevistas estructuradas, an\xE1lisis documental y observaci\xF3n directa para capturar el flujo real de trabajo. Posteriormente, modelo los procesos en BPMN usando Bizagi, asegurando claridad, coherencia y alineaci\xF3n con objetivos de automatizaci\xF3n.
-</p> </div> </div> </div> <div class="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4" data-astro-cid-al2ca2vr> <h2 class="text-base font-semibold" id="accordion-collapse-heading-3" data-astro-cid-al2ca2vr> <button type="button" class="flex justify-between items-center p-5 w-full font-medium text-start" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3" data-astro-cid-al2ca2vr> <span data-astro-cid-al2ca2vr>\xBF Cuale son las metodologias que ha utilizado ?</span> <svg data-accordion-icon class="size-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-astro-cid-al2ca2vr> <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-al2ca2vr></path> </svg> </button> </h2> <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3" data-astro-cid-al2ca2vr> <div class="p-5" data-astro-cid-al2ca2vr> <p class="text-slate-400 dark:text-gray-400" data-astro-cid-al2ca2vr>
+</p> </div> </div> </div> <div class="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4" data-astro-cid-al2ca2vr> <h2 class="text-base font-semibold" id="accordion-collapse-heading-3" data-astro-cid-al2ca2vr> <button type="button" class="flex justify-between items-center p-5 w-full font-medium text-start hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3" data-astro-cid-al2ca2vr> <span data-astro-cid-al2ca2vr>\xBF Cuale son las metodologias que ha utilizado ?</span> <svg data-accordion-icon class="size-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-astro-cid-al2ca2vr> <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-al2ca2vr></path> </svg> </button> </h2> <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3" data-astro-cid-al2ca2vr> <div class="p-5" data-astro-cid-al2ca2vr> <p class="text-slate-400 dark:text-gray-400" data-astro-cid-al2ca2vr>
 He aplicado metodolog\xEDas como BPMN para modelado, Lean para eliminar desperdicios, y an\xE1lisis de valor agregado para priorizar automatizaciones. Tambi\xE9n incorporo pr\xE1cticas de documentaci\xF3n t\xE9cnica y est\xE1ndares de RPA para asegurar escalabilidad y mantenimiento eficiente de las soluciones
-</p> </div> </div> </div> <div class="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4" data-astro-cid-al2ca2vr> <h2 class="text-base font-semibold" id="accordion-collapse-heading-4" data-astro-cid-al2ca2vr> <button type="button" class="flex justify-between items-center p-5 w-full font-medium text-start" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4" data-astro-cid-al2ca2vr> <span data-astro-cid-al2ca2vr>\xBF Como mide el impacto en los procesos que a identificado ?</span> <svg data-accordion-icon class="size-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-astro-cid-al2ca2vr> <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-al2ca2vr></path> </svg> </button> </h2> <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4" data-astro-cid-al2ca2vr> <div class="p-5" data-astro-cid-al2ca2vr> <p class="text-slate-400 dark:text-gray-400" data-astro-cid-al2ca2vr>
+</p> </div> </div> </div> <div class="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4" data-astro-cid-al2ca2vr> <h2 class="text-base font-semibold" id="accordion-collapse-heading-4" data-astro-cid-al2ca2vr> <button type="button" class="flex justify-between items-center p-5 w-full font-medium text-start hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4" data-astro-cid-al2ca2vr> <span data-astro-cid-al2ca2vr>\xBF Como mide el impacto en los procesos que a identificado ?</span> <svg data-accordion-icon class="size-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-astro-cid-al2ca2vr> <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" data-astro-cid-al2ca2vr></path> </svg> </button> </h2> <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4" data-astro-cid-al2ca2vr> <div class="p-5" data-astro-cid-al2ca2vr> <p class="text-slate-400 dark:text-gray-400" data-astro-cid-al2ca2vr>
 El impacto lo mido mediante KPIs definidos junto al cliente: reducci\xF3n de tiempos de ejecuci\xF3n, disminuci\xF3n de errores, ahorro en horas hombre, y mejora en la trazabilidad. Siempre comparo m\xE9tricas antes y despu\xE9s de la automatizaci\xF3n, y presento resultados en informes ejecutivos que facilitan la toma de decisiones.
-</p> </div> </div> </div> </div> </div> </section> <script>
+</p> </div> </div> </div> </div> </div> </div> </section> <script>
   document.addEventListener('DOMContentLoaded', function() {
     const accordionButtons = document.querySelectorAll('[data-accordion-target]');
     
@@ -277,9 +321,9 @@ const mongodb = createSvgComponent({"meta":{"src":"/_astro/mongodb.D1ckXxj_.svg"
 
 const mysql = createSvgComponent({"meta":{"src":"/_astro/mysql.dbU_cqZg.svg","width":100,"height":100,"format":"svg"},"attributes":{"fill":"none","viewBox":"0 0 100 100"},"children":"<path fill=\"#00546B\" d=\"M92.11 77.067c-5.44-.138-9.657.415-13.194 1.933-1.02.414-2.653.414-2.789 1.726.544.553.612 1.45 1.089 2.21.817 1.38 2.244 3.244 3.536 4.211 1.428 1.104 2.857 2.209 4.353 3.175 2.652 1.657 5.645 2.624 8.23 4.28 1.497.967 2.992 2.21 4.488 3.246.749.551 1.224 1.45 2.177 1.794v-.206c-.477-.622-.613-1.52-1.088-2.21-.68-.69-1.36-1.312-2.04-2.002-1.973-2.692-4.421-5.04-7.074-6.973-2.176-1.519-6.938-3.59-7.821-6.144l-.136-.138c1.496-.138 3.264-.69 4.693-1.105 2.312-.621 4.42-.483 6.8-1.104 1.089-.277 2.177-.622 3.265-.967v-.621c-1.224-1.243-2.108-2.9-3.4-4.073-3.469-3.039-7.278-6.007-11.222-8.492-2.11-1.381-4.83-2.279-7.074-3.452-.816-.415-2.176-.622-2.652-1.312-1.225-1.519-1.905-3.52-2.789-5.316-1.972-3.797-3.877-8.008-5.577-12.012-1.224-2.693-1.972-5.386-3.469-7.87-7.005-11.737-14.622-18.848-26.32-25.821-2.517-1.45-5.51-2.071-8.706-2.83-1.7-.07-3.4-.208-5.1-.277-1.09-.483-2.178-1.795-3.13-2.416C13.284 1.815 3.286-3.57.43 3.54c-1.837 4.488 2.72 8.906 4.284 11.185 1.157 1.588 2.652 3.382 3.469 5.178.476 1.172.611 2.416 1.088 3.659 1.088 3.036 2.108 6.42 3.537 9.25.748 1.45 1.564 2.97 2.516 4.281.544.76 1.496 1.105 1.7 2.347-.951 1.381-1.02 3.452-1.564 5.178-2.449 7.802-1.496 17.467 1.972 23.197 1.088 1.725 3.673 5.523 7.142 4.073 3.06-1.242 2.38-5.177 3.264-8.63.205-.829.069-1.38.476-1.933v.139c.953 1.932 1.904 3.797 2.789 5.73 2.108 3.382 5.78 6.904 8.841 9.251 1.633 1.242 2.925 3.383 4.966 4.142v-.207h-.137c-.408-.622-1.02-.898-1.564-1.381-1.224-1.242-2.585-2.761-3.536-4.142-2.857-3.867-5.374-8.147-7.618-12.565-1.088-2.14-2.04-4.488-2.924-6.628-.409-.829-.409-2.071-1.089-2.485-1.02 1.519-2.516 2.83-3.264 4.694-1.292 2.969-1.428 6.628-1.904 10.425-.273.07-.137 0-.273.139-2.176-.553-2.924-2.831-3.74-4.765-2.041-4.901-2.381-12.771-.613-18.432.477-1.45 2.517-6.007 1.701-7.388-.408-1.311-1.769-2.07-2.517-3.106-.884-1.312-1.836-2.968-2.448-4.419-1.633-3.866-2.449-8.146-4.217-12.012-.816-1.796-2.244-3.66-3.4-5.316-1.293-1.864-2.721-3.176-3.741-5.385-.34-.76-.817-2.002-.272-2.83.136-.553.407-.76.952-.898.884-.76 3.4.207 4.284.62 2.517 1.036 4.625 2.003 6.734 3.453.952.69 1.972 2.002 3.196 2.347h1.429c2.176.483 4.624.138 6.665.76 3.605 1.173 6.87 2.899 9.794 4.763 8.91 5.73 16.255 13.877 21.22 23.611.816 1.587 1.156 3.038 1.904 4.694 1.429 3.384 3.197 6.836 4.625 10.15 1.428 3.244 2.788 6.558 4.829 9.25 1.02 1.45 5.1 2.21 6.937 2.97 1.36.62 3.47 1.173 4.693 1.932 2.312 1.45 4.625 3.107 6.801 4.695 1.089.828 4.489 2.554 4.693 3.935\" /><path fill=\"#00546B\" d=\"M22.737 17.072c-1.156 0-1.972.14-2.788.346v.138h.136c.544 1.105 1.496 1.864 2.175 2.83.545 1.105 1.02 2.21 1.565 3.315l.136-.138c.953-.691 1.428-1.796 1.428-3.453-.408-.483-.476-.966-.816-1.45-.407-.69-1.292-1.035-1.836-1.588\" />"});
 
-const $$Astro$3 = createAstro();
+const $$Astro$1 = createAstro();
 const $$Tech = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Tech;
   const lenguajes = [
     { url: astro, name: "Astro JS" },
@@ -312,7 +356,8 @@ const $$Tech = createComponent(($$result, $$props, $$slots) => {
     { url: mongodb, name: "MongoDB" },
     { url: mysql, name: "MySQL" }
   ];
-  return renderTemplate`${maybeRenderHead()}<section id="tech" class="relative md:py-24 py-16"> <div class="absolute inset-0 bg-bottom bg-no-repeat bg-cover"${addAttribute({ backgroundImage: `url('${back.src}')` }, "style")}></div> <div class="container relative"> <div class="grid grid-cols-1 pb-2 text-center"> <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">Tech</h6> <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Herramientas y Tecnologia</h3> <p class="text-slate-400 max-w-2xl mx-auto">A lo largo de mi carrera como consultor he acumulado algo de experiencia con las siguientes herramientas, lenguajes y tecnologias.</p> </div> <div class="flex justify-center items-center text-center mt-8"> <ul class="list-none space-x-3 space-y-4"> ${lenguajes.map((l) => renderTemplate`<li class="inline-block group"> <div class="group flex items-center bg-white dark:bg-slate-900 hover:text-indigo-600 shadow hover:shadow-md dark:shadow-gray-800 hover:dark:shadow-gray-800 border-4 border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 hover:dark:border-indigo-600/50 py-1.5 px-4 rounded-full align-middle duration-300
+  return renderTemplate`${maybeRenderHead()}<section id="tech" class="relative md:py-24 py-16"> <div class="absolute inset-0 bg-bottom bg-no-repeat bg-cover"${addAttribute({ backgroundImage: `url('${back.src}')` }, "style")}></div> <div class="container relative"> <div class="grid grid-cols-1 pb-2 text-center"> <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">Tech</h6> <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Herramientas y Tecnologia</h3> <p class="text-slate-400 max-w-2xl mx-auto">A lo largo de mi carrera como consultor he acumulado algo de experiencia con las siguientes herramientas, lenguajes y tecnologias.</p> </div> <div class="flex justify-center items-center text-center mt-8"> <ul class="list-none space-x-3 space-y-4"> ${lenguajes.map((l) => renderTemplate`<li class="inline-block group"> <div class="group flex items-center py-1.5 px-4 rounded-full align-middle duration-300 text-slate-400 border-4
+                            border-double border-gray-100 hover:border-indigo-600/30 dark:border-gray-800 shadow hover:shadow-md bg-slate-900 dark:shadow-gray-800 hover:text-indigo-600 hover:dark:shadow-gray-800 hover:dark:border-indigo-600/50 
                             [filter:grayscale(50%)] group-hover:[filter:grayscale(0%)]
                             group-hover:shadow-md
                             group-hover:dark:shadow-gray-800
@@ -321,64 +366,177 @@ const $$Tech = createComponent(($$result, $$props, $$slots) => {
                             transition-all"> ${renderComponent($$result, "Picture", $$Picture, { "class": "size-3 me-2 transition-all duration-300", "src": l.url, "alt": l.name })} <span class="text-[18px] font-medium">${l.name}</span> </div> </li>`)} </ul> </div> </div> </section>`;
 }, "C:/Users/ilopez/Desktop/Ignaciolopezc/src/components/ui/Tech.astro", void 0);
 
-const $$Astro$2 = createAstro();
-const $$ModalSuccess = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
-  Astro2.self = $$ModalSuccess;
-  const {
-    isOpen = false,
-    title = "Mensaje enviado!",
-    message = "Muchas gracias, Muy pronto me pondr\xE9 en contacto contigo.",
-    onClose = "closeModal()"
-  } = Astro2.props;
-  return renderTemplate`${maybeRenderHead()}<div id="success-modal"${addAttribute(`fixed inset-0 z-50 flex items-center justify-center p-4 transition-all duration-300 backdrop-blur-sm ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"}`, "class")} style="background: rgba(52, 74, 112, 0.7);
-				box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-				backdrop-filter: blur(9px);
-				-webkit-backdrop-filter: blur(9px);"> <!-- Backdrop --> <div class="fixed inset-0 bg-black/40 backdrop-blur-sm animate-fade-in"${addAttribute(onClose, "onclick")}></div> <!-- Modal Content --> <div class="relative rounded-lg shadow-xl max-w-xl w-full animate-scale-in dark:bg-gradient-to-r from-green-800 from-0% to-slate-800 via-slate-800 to-25% "> <div class="px-4 py-3 mx-5 my-4"> <div class="flex items-center gap-3"> <!-- Success Icon (Left) --> <div class="flex-shrink-0 me-2"> <div class="w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center"> <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"> <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path> </svg> </div> </div> <!-- Text Content (Center) --> <div class="flex-1 min-w-0 text-white"> <h3 id="modal-title" class="font-medium text-md leading-tight">${title}</h3> <p class="text-sm mt-2 leading-tight">${message}</p> </div> <!-- Close Button (Right) --> <button type="button" class="flex-shrink-0 text-emerald-300 hover:text-white transition-colors duration-200 p-1"${addAttribute(onClose, "onclick")}> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path> </svg> </button> </div> </div> </div> </div> ${renderScript($$result, "C:/Users/ilopez/Desktop/Ignaciolopezc/src/components/ui/ModalSuccess.astro?astro&type=script&index=0&lang.ts")}`;
-}, "C:/Users/ilopez/Desktop/Ignaciolopezc/src/components/ui/ModalSuccess.astro", void 0);
-
-const $$Contact = createComponent(async ($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<section id="contact"> <div class="container relative md:mt-24 my-16"> <div class="grid grid-cols-1 text-center"> <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">Contactame</h6> <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">¿ Tiene una pregunta ? Conversemos!</h3> <p class="text-slate-400 mb-8 max-w-xl mx-auto">En el inicio y al final de esta pagina podras encontrar mis redes sociales o si gustas puedes enviarme un mensaje con el siguiente formulario</p> <form id="formData" name="formData"> <p class="mx-5" id="message"></p> <div class="grid lg:grid-cols-12 lg:gap-6"> <div class="lg:col-span-6 mb-5"> <div class="text-start"> <label for="name" class="font-semibold">Nombre:</label> <div class="form-icon relative mt-2"> <input name="name" id="name" type="text" class="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Agrega tu nombre y apellido :"> </div> </div> </div> <div class="lg:col-span-6 mb-5"> <div class="text-start"> <label for="email" class="font-semibold">Email:</label> <div class="form-icon relative mt-2"> <input name="email" id="email" type="email" class="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Agrega tu email para contactarte :"> </div> </div> </div> <div class="lg:col-span-6 mb-5"> <div class="text-start"> <label for="subject" class="font-semibold">Asunto:</label> <div class="form-icon relative mt-2"> <input name="subject" id="subject" type="text" class="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Asunto :"> </div> </div> </div> </div> <div class="grid grid-cols-1"> <div class="mb-5"> <div class="text-start"> <label for="message" class="font-semibold">Mensaje:</label> <div class="form-icon relative mt-2"> <i data-feather="message-circle" class="size-4 absolute top-3 start-4"></i> <textarea name="message" id="message" class="form-input ps-11 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Tu mensaje :"></textarea> </div> </div> </div> </div> <button type="submit" id="submit" name="send" class="py-2 mb-10 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-4"><i class="uil uil-phone"></i> Enviar </button> </form> </div> </div> ${renderComponent($$result, "ModalSuccess", $$ModalSuccess, {})} </section> ${renderScript($$result, "C:/Users/ilopez/Desktop/Ignaciolopezc/src/components/Contact.astro?astro&type=script&index=0&lang.ts")}`;
-}, "C:/Users/ilopez/Desktop/Ignaciolopezc/src/components/Contact.astro", void 0);
-
-const $$Astro$1 = createAstro();
+const $$Astro = createAstro();
 const $$Education = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Education;
-  return renderTemplate`${maybeRenderHead()}<section id="education" class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800"> <div class="container relative"> <div class="grid grid-cols-1 pb-8 text-center"> <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">Education</h6> <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Educación</h3> </div> <div class="mt-10 text-center"> <h4 class="mb-4 text-2xl leading-normal font-medium">Ingenieria en Informatica.</h4> <p class="text-slate-400">Titulado el año 2015 en Duoc UC siendo capas de diseñar, integrar y liderar soluciones tecnológicas innovadoras en áreas como desarrollo de software, automatización, ciencia de datos, impactando la calidad y seguridad de los sistemas informáticos en organizaciones a nivel global</p> <ul class="list-none text-slate-400 mt-4 max-w-3xl mx-auto"> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Enfocado en la gestión de proyectos y manejo de metodologías para el desarrollo de procesos.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Manejo y experiencia en el diseño e integraciones de protocolos de comunicación.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Capacidad de emprendimiento e innovación con equipos de trabajo.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Liderazgo en el desarrollo de aplicaciones y lenguajes en entornos web.</li> </ul> </div> <div class="mt-10 text-center"> <h4 class="mb-4 text-2xl leading-normal font-medium">Analista Programador Computacional.</h4> <p class="text-slate-400">Titulado el año 2009 en Duoc UC enfocado en desarrollar soluciones de software innovadoras y seguras, aplicando metodologías de ingeniería y estándares de la industria, con una visión estratégica orientada a las necesidades del negocio y la transformación digital.</p> <ul class="list-none text-slate-400 mt-4 max-w-3xl mx-auto"> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Enfocado en la creación y desarrollo de aplicaciones.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Manejo de protocolos de comunicación y seguridad de los datos en el desarrollo.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Integración con plataformas orientadas a objetos.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Estudio en lenguajes de programación Desktop y Web.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Estudio de arquitecturas de bases de datos relacionales SQL.</li> </ul> </div> <div class="mt-10 text-center"> <h4 class="mb-4 text-2xl leading-normal font-medium">Cursos y Capacitaciones.</h4> <ul class="list-none text-slate-400 mt-4 mx-auto"> <li class="mb-1">2025 - Astro REST API Tailwind TypeScript - Freelance.</li> <li class="mb-1">2024 - Excel Analysis Microsoft - Tecno Fast .</li> <li class="mb-1">2024 - Power BI Microsoft - Tecno Fast .</li> <li class="mb-1">2023 - Curso React JS y Next JS 13 .</li> <li class="mb-1">2023 - Curso Bootstrap5 - SASS .</li> <li class="mb-1">2023 - Guía moderna de JavaScript 2023 .</li> <li class="mb-1">2021 - Academy Uipath Automation Studio X - TBusiness .</li> <li class="mb-1">2021 - Academy Uipath Orchestrator Developers - TBusiness .</li> <li class="mb-1">2021 - Automation Anywhere University IQ Bot - TBusiness .</li> <li class="mb-1">2020 - Automation Anywhere University Automation 360 - TBusiness .</li> <li class="mb-1">2020 - Big Data Bootcamp - Axity Chile .</li> <li class="mb-1">2020 - Python Bootcamp - Axity Chile .</li> <li class="mb-1">2019 - Workshop framework Scrum Master - Axity .</li> <li class="mb-1">2013 - Certificación Toeic / Toefl Bridge Ingles a Nivel Intermedio avanzado .</li> <li class="mb-1">2012 - Curso Microsoft Dynamics CRM - PwC Chile .</li> <li class="mb-1">2010 - Seminario XBRL en la Universidad de Chile - PwC Chile .</li> <li class="mb-1">2010 - Certificación Excel Avanzado en eCenter - PwC Chile .</li> </ul> </div> </div> </section>`;
+  return renderTemplate`${maybeRenderHead()}<section id="education" class="relative md:py-24 py-16 bg-slate-800 text-white"> <div class="container relative"> <div class="grid grid-cols-1 pb-8 text-center"> <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">Education</h6> <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Educación</h3> </div> <div class="mt-10 text-center"> <h4 class="mb-4 text-2xl leading-normal font-medium">Ingenieria en Informatica.</h4> <p class="text-slate-400">Titulado el año 2015 en Duoc UC siendo capas de diseñar, integrar y liderar soluciones tecnológicas innovadoras en áreas como desarrollo de software, automatización, ciencia de datos, impactando la calidad y seguridad de los sistemas informáticos en organizaciones a nivel global</p> <ul class="list-none text-slate-400 mt-4 max-w-3xl mx-auto"> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Enfocado en la gestión de proyectos y manejo de metodologías para el desarrollo de procesos.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Manejo y experiencia en el diseño e integraciones de protocolos de comunicación.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Capacidad de emprendimiento e innovación con equipos de trabajo.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Liderazgo en el desarrollo de aplicaciones y lenguajes en entornos web.</li> </ul> </div> <div class="mt-10 text-center"> <h4 class="mb-4 text-2xl leading-normal font-medium">Analista Programador Computacional.</h4> <p class="text-slate-400">Titulado el año 2009 en Duoc UC enfocado en desarrollar soluciones de software innovadoras y seguras, aplicando metodologías de ingeniería y estándares de la industria, con una visión estratégica orientada a las necesidades del negocio y la transformación digital.</p> <ul class="list-none text-slate-400 mt-4 max-w-3xl mx-auto"> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Enfocado en la creación y desarrollo de aplicaciones.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Manejo de protocolos de comunicación y seguridad de los datos en el desarrollo.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Integración con plataformas orientadas a objetos.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Estudio en lenguajes de programación Desktop y Web.</li> <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Estudio de arquitecturas de bases de datos relacionales SQL.</li> </ul> </div> <div class="mt-10 text-center"> <h4 class="mb-4 text-2xl leading-normal font-medium">Cursos y Capacitaciones.</h4> <ul class="list-none text-slate-400 mt-4 mx-auto"> <li class="mb-1">2025 - Astro REST API Tailwind TypeScript - Freelance.</li> <li class="mb-1">2024 - Excel Analysis Microsoft - Tecno Fast .</li> <li class="mb-1">2024 - Power BI Microsoft - Tecno Fast .</li> <li class="mb-1">2023 - Curso React JS y Next JS 13 .</li> <li class="mb-1">2023 - Curso Bootstrap5 - SASS .</li> <li class="mb-1">2023 - Guía moderna de JavaScript 2023 .</li> <li class="mb-1">2021 - Academy Uipath Automation Studio X - TBusiness .</li> <li class="mb-1">2021 - Academy Uipath Orchestrator Developers - TBusiness .</li> <li class="mb-1">2021 - Automation Anywhere University IQ Bot - TBusiness .</li> <li class="mb-1">2020 - Automation Anywhere University Automation 360 - TBusiness .</li> <li class="mb-1">2020 - Big Data Bootcamp - Axity Chile .</li> <li class="mb-1">2020 - Python Bootcamp - Axity Chile .</li> <li class="mb-1">2019 - Workshop framework Scrum Master - Axity .</li> <li class="mb-1">2013 - Certificación Toeic / Toefl Bridge Ingles a Nivel Intermedio avanzado .</li> <li class="mb-1">2012 - Curso Microsoft Dynamics CRM - PwC Chile .</li> <li class="mb-1">2010 - Seminario XBRL en la Universidad de Chile - PwC Chile .</li> <li class="mb-1">2010 - Certificación Excel Avanzado en eCenter - PwC Chile .</li> </ul> </div> </div> </section>`;
 }, "C:/Users/ilopez/Desktop/Ignaciolopezc/src/components/Education.astro", void 0);
 
-const bgseo = new Proxy({"src":"/_astro/bgseo.vygcX-zD.png","width":1920,"height":1080,"format":"png"}, {
-						get(target, name, receiver) {
-							if (name === 'clone') {
-								return structuredClone(target);
-							}
-							if (name === 'fsPath') {
-								return "C:/Users/ilopez/Desktop/Ignaciolopezc/src/assets/images/bgseo.png";
-							}
-							
-							return target[name];
-						}
-					});
-
-const $$Astro = createAstro();
-const $$Hero2 = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
-  Astro2.self = $$Hero2;
-  const years = Astro2.props.years || 12;
-  Astro2.props.years - 11 || 5;
-  return renderTemplate`${maybeRenderHead()}<section id="hero"> <div class="relative md:py-64 py-36 items-center bg-center bg-no-repeat bg-cover"${addAttribute({ backgroundImage: `url('${bgseo.src}')` }, "style")}> <div class="container relative"> <div class="grid grid-cols-1 justify-center text-center"> <div class=""> <p class="text-slate-400 text-lg">Hola 👋, me presento mi nombre es.</p> <h4 class="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-black dark:text-white relative">Ignacio López Campos <br> <span class="relative text-indigo-600">Consultor de procesos RPA</span></h4> <p class="text-slate-400 text-lg mb-5">
-Cuento con más de 16 años de experiencia en consultoría de negocios, automatización de procesos y proyectos de implementación, optimización y desarrollo para variadas industrias del mercado.
-</p> ${renderComponent($$result, "Social", $$Social, {})} </div> </div> </div> </div> <div class="relative"> <div class="shape absolute sm:-bottom-px -bottom-[2px] start-0 end-0 overflow-hidden text-white dark:text-slate-900"> <svg class="w-full h-auto scale-[2.0] origin-top" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path> </svg> </div> </div> <div class="relative md:pb-24 pb-16"> <div class="container relative"> <div class="md:flex justify-center"> <div class="lg:w-3/4 md:w-full relative -mt-16"> <div class="p-6 bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-800"> <div class="md:flex justify-center"> <div class="md:w-1/3"> <div class="text-center"> <h6 class="text-slate-400 mb-0">Proyectos Realizados</h6> <h2 class="mb-0 text-4xl mt-3 font-bold">+30</h2> </div> </div> <div class="md:w-1/3 mt-8 md:mt-0"> <div class="text-center"> <h6 class="text-slate-400 mb-0">Automatizaciones Implementadas</h6> <h2 class="mb-0 text-4xl mt-3 font-bold">+200</h2> </div> </div> <div class="md:w-1/3 mt-8 md:mt-0"> <div class="text-center"> <h6 class="text-slate-400 mb-0">Años de Experiencia</h6> <h2 class="mb-0 text-4xl mt-3 font-bold">+${years}</h2> </div> </div> </div> </div> </div> </div> </div> <div class="container relative md:mt-24 mt-16"> <div class="grid grid-cols-1 pb-8 text-center"> <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2">About me</h6> <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Acerca de mí</h3> </div> <div class="flex justify-center"> <div class="lg:max-w-4xl w-full text-center text-slate-600 dark:text-slate-200"> <p>
-Hola 👋 Mi nombre es Ignacio López Campos, Titulado de Ingeniería en Informática, Cuento con experiencia en Consultoría de procesos, con más de 5 años de experiencia en desarrollo de automatizaciones en las principales herramientas del mercado.
-</p> <p class="mt-8">
-He sido responsable del levantamiento de procesos y desarrollo de automatizaciones, para dar soluciones a diversos clientes del mercado tales como, Codelco, Tecno Fast, Minera las Bambas, Candelaria, Bupa, Larrain Vial, AMSA, Entre otros.
-</p> <p class="mt-8">
-Mi trayectoria profesional ha permitido consolidar técnicas de desarrollo de software e implementación de soluciones, acordes a las exigencias actuales de los negocios. Al mismo tiempo he adquirido conocimientos en lenguajes de programación y herramientas de desarrollo. Hoy mi fortaleza es combinar estos conocimientos para automatizar procesos y crear herramientas capaces de solucionar, de forma eficiente las necesidades actuales de mis clientes.
-</p> <p class="mt-8">
-Dentro de mi carrera profesional como Consultor BPC estuve en grandes empresas como PwC Chile, Axity Chile y TBusiness En este rol tomé grandes desafíos; como el desarrollo e implementación de herramientas de levantamiento de procesos y consultoría SAP BPC. Generando reportes e indicadores de control para grandes empresas de minería y otros segmentos de mercado. Debo mencionar que he utilizado distintos tipos de metodologías para las entrevistas y comunicación con mis clientes y equipos, para avanzar y entender cómo funcionan, cuáles son sus metas y objetivos entregando soluciones acordes pero que generen un impacto en las áreas de mejora.
-</p> </div> </div> </div> </div> </section>`;
-}, "C:/Users/ilopez/Desktop/Ignaciolopezc/src/components/Hero2.astro", void 0);
+const validate = (payload) => {
+  const errors = [];
+  if (!payload.name || String(payload.name).trim().length < 2) {
+    errors.push("El nombre debe tener al menos 2 caracteres");
+  }
+  if (!payload.email || !String(payload.email).includes("@")) {
+    errors.push("Email inválido");
+  }
+  const phone = String(payload.phone || "").replace(/\D/g, "");
+  if (!phone || phone.length < 8) {
+    errors.push("El teléfono debe tener al menos 8 dígitos");
+  }
+  if (!payload.subject || String(payload.subject).trim().length < 4) {
+    errors.push("El asunto debe tener al menos 4 caracteres");
+  }
+  if (!payload.message || String(payload.message).trim().length < 10) {
+    errors.push("El mensaje debe tener al menos 10 caracteres");
+  }
+  return errors;
+};
+const ContactForm = () => {
+  const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState(null);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    setLoading(true);
+    setStatus(null);
+    try {
+      const formData = new FormData(form);
+      const payload = {
+        name: formData.get("name"),
+        email: formData.get("email"),
+        phone: formData.get("phone"),
+        subject: formData.get("subject"),
+        message: formData.get("message")
+      };
+      const errors = validate(payload);
+      if (errors.length > 0) {
+        setStatus(errors[0]);
+        setLoading(false);
+        return;
+      }
+      const response = await fetch("http://localhost:3001/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      const data = await response.json();
+      if (!response.ok || !data.success) {
+        setStatus("error");
+        throw new Error(`${data.error || "Error en el envío"}${data.details ? `: ${data.details.join(", ")}` : ""}`);
+      }
+      setStatus("success");
+      form.reset();
+    } catch (err) {
+      setStatus("Hubo un problema al enviar tu mensaje. Por favor, revisa tu conexión a internet o inténtalo de nuevo más tarde.");
+    } finally {
+      setLoading(false);
+    }
+  };
+  return /* @__PURE__ */ jsx("section", { id: "contact", className: "relative md:py-24 py-16 text-white", children: /* @__PURE__ */ jsx("div", { className: "container relative", children: /* @__PURE__ */ jsxs("div", { className: "grid grid-cols-1 text-center", children: [
+    /* @__PURE__ */ jsx("h6", { className: "text-indigo-600 text-sm font-bold uppercase mb-2", children: "Contactame" }),
+    /* @__PURE__ */ jsx("h3", { className: "mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold", children: "¿ Tiene una pregunta ? Conversemos!" }),
+    /* @__PURE__ */ jsx("p", { className: "text-slate-400 mb-8 max-w-xl mx-auto", children: "En el inicio y al final de esta pagina podras encontrar mis redes sociales o si gustas puedes enviarme un mensaje con el siguiente formulario" }),
+    /* @__PURE__ */ jsxs("form", { onSubmit: handleSubmit, children: [
+      /* @__PURE__ */ jsxs("div", { className: "grid lg:grid-cols-12 lg:gap-6", children: [
+        /* @__PURE__ */ jsx("div", { className: "lg:col-span-6 mb-5", children: /* @__PURE__ */ jsxs("div", { className: "text-start", children: [
+          /* @__PURE__ */ jsx("label", { className: "font-semibold", children: "Nombre:" }),
+          /* @__PURE__ */ jsx("div", { className: "form-icon relative mt-2", children: /* @__PURE__ */ jsx(
+            "input",
+            {
+              name: "name",
+              id: "name",
+              type: "text",
+              placeholder: "Agrega tu nombre y apellido :",
+              required: true,
+              className: "form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0"
+            }
+          ) })
+        ] }) }),
+        /* @__PURE__ */ jsx("div", { className: "lg:col-span-6 mb-5", children: /* @__PURE__ */ jsxs("div", { className: "text-start", children: [
+          /* @__PURE__ */ jsx("label", { className: "font-semibold", children: "Email:" }),
+          /* @__PURE__ */ jsx("div", { className: "form-icon relative mt-2", children: /* @__PURE__ */ jsx(
+            "input",
+            {
+              name: "email",
+              id: "email",
+              type: "email",
+              placeholder: "Agrega tu email para contactarte :",
+              required: true,
+              className: "form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0"
+            }
+          ) })
+        ] }) }),
+        /* @__PURE__ */ jsx("div", { className: "lg:col-span-6 mb-5", children: /* @__PURE__ */ jsxs("div", { className: "text-start", children: [
+          /* @__PURE__ */ jsx("label", { className: "font-semibold", children: "Asunto:" }),
+          /* @__PURE__ */ jsx("div", { className: "form-icon relative mt-2", children: /* @__PURE__ */ jsx(
+            "input",
+            {
+              name: "subject",
+              id: "subject",
+              type: "text",
+              placeholder: "Asunto :",
+              required: true,
+              className: "form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0"
+            }
+          ) })
+        ] }) }),
+        /* @__PURE__ */ jsx("div", { className: "lg:col-span-6 mb-5", children: /* @__PURE__ */ jsxs("div", { className: "text-start", children: [
+          /* @__PURE__ */ jsx("label", { className: "font-semibold", children: "Telefono:" }),
+          /* @__PURE__ */ jsx("div", { className: "form-icon relative mt-2", children: /* @__PURE__ */ jsx(
+            "input",
+            {
+              name: "phone",
+              id: "phone",
+              type: "text",
+              placeholder: "Telefono :",
+              required: true,
+              className: "form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0"
+            }
+          ) })
+        ] }) })
+      ] }),
+      /* @__PURE__ */ jsx("div", { className: "grid grid-cols-1", children: /* @__PURE__ */ jsx("div", { className: "mb-5", children: /* @__PURE__ */ jsxs("div", { className: "text-start", children: [
+        /* @__PURE__ */ jsx("label", { className: "font-semibold", children: "Mensaje:" }),
+        /* @__PURE__ */ jsxs("div", { className: "form-icon relative mt-2", children: [
+          /* @__PURE__ */ jsx("i", { "data-feather": "message-circle", className: "size-4 absolute top-3 start-4" }),
+          /* @__PURE__ */ jsx(
+            "textarea",
+            {
+              name: "message",
+              id: "message",
+              placeholder: "Tu mensaje :",
+              required: true,
+              className: "form-input ps-11 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0"
+            }
+          )
+        ] })
+      ] }) }) }),
+      status === "success" && /* @__PURE__ */ jsx("div", { className: "w-full", children: /* @__PURE__ */ jsx("div", { className: "relative bg-emerald-800 rounded-lg shadow-xl w-full border border-emerald-700", children: /* @__PURE__ */ jsx("div", { className: "px-4 py-3", children: /* @__PURE__ */ jsxs("div", { className: "flex items-center gap-3", children: [
+        /* @__PURE__ */ jsx("div", { className: "flex-shrink-0", children: /* @__PURE__ */ jsx("div", { className: "w-6 h-6 bg-emerald-600 rounded-full flex items-center justify-center", children: /* @__PURE__ */ jsx("svg", { className: "w-4 h-4 text-white", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", "stroke-width": "2.5", children: /* @__PURE__ */ jsx("path", { "stroke-linecap": "round", "stroke-linejoin": "round", d: "M5 13l4 4L19 7" }) }) }) }),
+        /* @__PURE__ */ jsx("div", { className: "flex-1 min-w-0", children: /* @__PURE__ */ jsx("h3", { id: "modal-title", class: "text-white font-medium text-sm leading-tight", children: "¡Listo! He recibido tu mensaje. Me pondre en contacto contigo lo antes posible." }) })
+      ] }) }) }) }),
+      typeof status === "string" && status !== "success" && /* @__PURE__ */ jsx("div", { className: "w-full", children: /* @__PURE__ */ jsx("div", { className: "relative bg-red-800 rounded-lg shadow-xl w-full border border-red-700", children: /* @__PURE__ */ jsx("div", { className: "px-4 py-3", children: /* @__PURE__ */ jsxs("div", { className: "flex items-center gap-3", children: [
+        /* @__PURE__ */ jsx("div", { className: "flex-shrink-0", children: /* @__PURE__ */ jsx("div", { className: "w-6 h-6 bg-red-600 rounded-full flex items-center justify-center", children: /* @__PURE__ */ jsx("svg", { className: "w-4 h-4 text-white", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24", "stroke-width": "2.5", children: /* @__PURE__ */ jsx("path", { "stroke-linecap": "round", "stroke-linejoin": "round", d: "M6 18L18 6M6 6l12 12" }) }) }) }),
+        /* @__PURE__ */ jsx("div", { className: "flex-1 min-w-0", children: /* @__PURE__ */ jsx("h3", { className: "text-white font-medium text-md leading-tight", children: status }) })
+      ] }) }) }) }),
+      /* @__PURE__ */ jsxs(
+        "button",
+        {
+          type: "submit",
+          disabled: loading,
+          className: "py-2 mb-10 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-4",
+          children: [
+            /* @__PURE__ */ jsx("i", { className: "uil uil-phone" }),
+            " ",
+            loading ? "Enviando..." : "Enviar"
+          ]
+        }
+      )
+    ] })
+  ] }) }) });
+};
 
 function calculateYears() {
   const start = 2009;
@@ -389,7 +547,7 @@ function calculateYears() {
 
 const $$Index = createComponent(($$result, $$props, $$slots) => {
   const years = calculateYears();
-  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, {}, { "default": ($$result2) => renderTemplate`   ${renderComponent($$result2, "Hero2", $$Hero2, { "years": years })}  ${renderComponent($$result2, "Experience", $$Experience, {})} ${renderComponent($$result2, "Tech", $$Tech, {})} ${renderComponent($$result2, "Education", $$Education, {})}   ${renderComponent($$result2, "FAQ", $$FAQ, { "years": years })} ${renderComponent($$result2, "Contact", $$Contact, {})}  ` })}`;
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, {}, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Hero", $$Hero, {})}  ${renderComponent($$result2, "Experience", $$Experience, {})} ${renderComponent($$result2, "Tech", $$Tech, {})} ${renderComponent($$result2, "Education", $$Education, {})} ${renderComponent($$result2, "FAQ", $$FAQ, { "years": years })} ${renderComponent($$result2, "Contact", ContactForm, { "client:load": true, "client:component-hydration": "load", "client:component-path": "@components/Contact", "client:component-export": "default" })} ` })}`;
 }, "C:/Users/ilopez/Desktop/Ignaciolopezc/src/pages/index.astro", void 0);
 
 const $$file = "C:/Users/ilopez/Desktop/Ignaciolopezc/src/pages/index.astro";

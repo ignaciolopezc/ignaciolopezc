@@ -8,7 +8,7 @@ import react from '@astrojs/react';
 export default defineConfig({
 	output: 'server',
 
-	redirects: { '*': '/' },
+	// redirects: { '*': '/' },
 
 	vite: {
 		plugins: [tailwindcss()],
