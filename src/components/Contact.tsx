@@ -46,14 +46,13 @@ const ContactForm: React.FC = () => {
 			// Validación antes de enviar
 			const errors = validate(payload);
 			if (errors.length > 0) {
-				// setStatus(errors[0]);
+				setStatus(errors[0]);
 				setLoading(false);
 				return;
 			}
 
-			console.log(nacho);
-
-			const response = await fetch('https://ignaciolopezc-backend.vercel.app/api/send-email', {
+			const response = await fetch('https://ignaciolopezc-backend.vercel.app/api/server', {
+				// const response = await fetch('http://localhost:3001/api/send-email', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(payload),
@@ -69,7 +68,7 @@ const ContactForm: React.FC = () => {
 			form.reset();
 		} catch (err: any) {
 			setStatus('error');
-			// setStatus('Hubo un problema al enviar tu mensaje. Por favor, revisa tu conexión a internet o inténtalo de nuevo más tarde.');
+			setStatus('Hubo un problema al enviar tu mensaje. Por favor, revisa tu conexión a internet o inténtalo de nuevo más tarde.');
 		} finally {
 			setLoading(false);
 		}
