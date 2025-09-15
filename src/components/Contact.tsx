@@ -1,3 +1,4 @@
+import { ContentSchemaContainsSlugError } from 'node_modules/astro/dist/core/errors/errors-data';
 import React, { useState } from 'react';
 
 function validate(payload: Record<string, FormDataEntryValue | null>) {
@@ -51,16 +52,18 @@ const ContactForm: React.FC = () => {
 				return;
 			}
 
-			const response = await fetch('https://www.ignaciolopezc.cl/api/send-email', {
-				// const response = await fetch('http://localhost:3001/api/send-email', {
-				method: 'POST',
+			const response = await fetch('https://ignaciolopezc-backend.vercel.app/api/send-email', {
+				method: 'GET',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(payload),
 			});
 
 			const data = await response.json();
+			console.log(data);
 
 			if (!response.ok || !data.success) {
+				console.log(data.error);
+
 				setStatus('error');
 				throw new Error(`${data.error || 'Error en el envío'}${data.details ? `: ${data.details.join(', ')}` : ''}`);
 			}
