@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-// import { z } from 'astro:content';
 
-const validate = (payload: Record<string, FormDataEntryValue | null>) => {
+function validate(payload: Record<string, FormDataEntryValue | null>) {
 	const errors: string[] = [];
 	if (!payload.name || String(payload.name).trim().length < 2) {
 		errors.push('El nombre debe tener al menos 2 caracteres');
@@ -21,7 +20,7 @@ const validate = (payload: Record<string, FormDataEntryValue | null>) => {
 		errors.push('El mensaje debe tener al menos 10 caracteres');
 	}
 	return errors;
-};
+}
 
 const ContactForm: React.FC = () => {
 	const [loading, setLoading] = useState(false);
@@ -47,12 +46,14 @@ const ContactForm: React.FC = () => {
 			// Validación antes de enviar
 			const errors = validate(payload);
 			if (errors.length > 0) {
-				setStatus(errors[0]);
+				// setStatus(errors[0]);
 				setLoading(false);
 				return;
 			}
 
-			const response = await fetch('http://localhost:3001/api/send-email', {
+			console.log(nacho);
+
+			const response = await fetch('https://ignaciolopezc-backend.vercel.app/api/send-email', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(payload),
@@ -67,7 +68,8 @@ const ContactForm: React.FC = () => {
 			setStatus('success');
 			form.reset();
 		} catch (err: any) {
-			setStatus('Hubo un problema al enviar tu mensaje. Por favor, revisa tu conexión a internet o inténtalo de nuevo más tarde.');
+			setStatus('error');
+			// setStatus('Hubo un problema al enviar tu mensaje. Por favor, revisa tu conexión a internet o inténtalo de nuevo más tarde.');
 		} finally {
 			setLoading(false);
 		}
@@ -180,7 +182,7 @@ const ContactForm: React.FC = () => {
 												</div>
 											</div>
 											<div className='flex-1 min-w-0'>
-												<h3 id='modal-title' class='text-white font-medium text-sm leading-tight'>
+												<h3 id='modal-title' className='text-white font-medium text-sm leading-tight'>
 													¡Listo! He recibido tu mensaje. Me pondre en contacto contigo lo antes posible.
 												</h3>
 											</div>
