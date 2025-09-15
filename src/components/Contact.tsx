@@ -53,11 +53,12 @@ const ContactForm: React.FC = () => {
 			}
 
 			const response = await fetch('https://ignaciolopezc-backend.vercel.app/api/send-email', {
-				method: 'GET',
+				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(payload),
 			});
 
+			console.log(response);
 			const data = await response.json();
 			console.log(data);
 
