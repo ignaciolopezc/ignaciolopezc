@@ -1,0 +1,58 @@
+.shadow {
+	--tw-shadow: 0 0 3px rgb(60 72 88 / 0.15) !important;
+	--tw-shadow-colored: 0 0 3px var(--tw-shadow-color) !important;
+	-webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+.shadow-2xl {
+	--tw-shadow: 0 25px 50px -12px rgb(60 72 88 / 0.25) !important;
+	--tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color) !important;
+	-webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+.shadow-lg {
+	--tw-shadow: 0 10px 25px -3px rgb(60 72 88 / 0.15) !important;
+	--tw-shadow-colored: 0 10px 25px -3px var(--tw-shadow-color) !important;
+	-webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+.shadow-md {
+	--tw-shadow: 0 5px 13px rgb(60 72 88 / 0.2) !important;
+	--tw-shadow-colored: 0 5px 13px var(--tw-shadow-color) !important;
+	-webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+.shadow-none {
+	--tw-shadow: 0 0 #0000 !important;
+	--tw-shadow-colored: 0 0 #0000 !important;
+	-webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+.shadow-sm {
+	--tw-shadow: 0 2px 4px 0 rgb(60 72 88 / 0.15) !important;
+	--tw-shadow-colored: 0 2px 4px 0 var(--tw-shadow-color) !important;
+	-webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+.shadow-xl {
+	--tw-shadow: 0 20px 25px -5px rgb(60 72 88 / 0.1), 0 8px 10px -6px rgb(60 72 88 / 0.1) !important;
+	--tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color) !important;
+	-webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+.shadow-gray-100 {
+	--tw-shadow-color: #f3f4f6 !important;
+	--tw-shadow: var(--tw-shadow-colored) !important;
+}
+.shadow-gray-300 {
+	--tw-shadow-color: #d1d5db !important;
+	--tw-shadow: var(--tw-shadow-colored) !important;
+}
+.shadow-indigo-600\/10 {
+	--tw-shadow-color: rgb(79 70 229 / 0.1) !important;
+	--tw-shadow: var(--tw-shadow-colored) !important;
+}
+.shadow-slate-100 {
+	--tw-shadow-color: #f1f5f9 !important;
+	--tw-shadow: var(--tw-shadow-colored) !important;
+}

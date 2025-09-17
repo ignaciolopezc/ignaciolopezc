@@ -44,13 +44,13 @@ const ContactForm: React.FC = () => {
 				message: formData.get('message'),
 			};
 
-			// Validación antes de enviar
-			const errors = validate(payload);
-			if (errors.length > 0) {
-				setStatus(errors[0]);
-				setLoading(false);
-				return;
-			}
+			// // Validación antes de enviar
+			// const errors = validate(payload);
+			// if (errors.length > 0) {
+			// 	setStatus(errors[0]);
+			// 	setLoading(false);
+			// 	return;
+			// }
 
 			const response = await fetch('https://ignaciolopezc-backend.vercel.app/api/send-email', {
 				method: 'POST',
@@ -58,7 +58,7 @@ const ContactForm: React.FC = () => {
 				body: JSON.stringify(payload),
 			});
 
-			console.log(response);
+			console.log(response.json());
 			const data = await response.json();
 			console.log(data);
 
@@ -100,7 +100,7 @@ const ContactForm: React.FC = () => {
 											type='text'
 											placeholder='Agrega tu nombre y apellido :'
 											required
-											className='form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0'
+											className='form-input ps-11 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-800 focus:border-indigo-600 focus:ring-0'
 										/>
 									</div>
 								</div>
@@ -116,7 +116,7 @@ const ContactForm: React.FC = () => {
 											type='email'
 											placeholder='Agrega tu email para contactarte :'
 											required
-											className='form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0'
+											className='form-input ps-11 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-800 focus:border-indigo-600 focus:ring-0'
 										/>
 									</div>
 								</div>
@@ -132,7 +132,7 @@ const ContactForm: React.FC = () => {
 											type='text'
 											placeholder='Asunto :'
 											required
-											className='form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0'
+											className='form-input ps-11 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-800 focus:border-indigo-600 focus:ring-0'
 										/>
 									</div>
 								</div>
@@ -148,7 +148,7 @@ const ContactForm: React.FC = () => {
 											type='text'
 											placeholder='Telefono :'
 											required
-											className='form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0'
+											className='form-input ps-11 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-800 focus:border-indigo-600 focus:ring-0'
 										/>
 									</div>
 								</div>
@@ -166,7 +166,7 @@ const ContactForm: React.FC = () => {
 											id='message'
 											placeholder='Tu mensaje :'
 											required
-											className='form-input ps-11 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0'></textarea>
+											className='form-input ps-11 w-full py-2 px-3 h-28 bg-transparent rounded outline-none border border-gray-800 focus:border-indigo-600 focus:ring-0'></textarea>
 									</div>
 								</div>
 							</div>
