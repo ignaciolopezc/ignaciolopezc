@@ -52,17 +52,28 @@ const ContactForm: React.FC = () => {
 			// 	return;
 			// }
 
+			// const response = await fetch('http://localhost:3001/nacho', {
+			// 	method: 'POST',
+			// 	headers: { 'Content-Type': 'application/json' },
+			// 	body: JSON.stringify(payload),
+			// });
+
+			// const response = await fetch('http://localhost:3001/api/send-email', {
+			// 	method: 'POST',
+			// 	headers: { 'Content-Type': 'application/json' },
+			// 	body: JSON.stringify(payload),
+			// });
 			const response = await fetch('https://ignaciolopezc-backend.vercel.app/api/send-email', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(payload),
 			});
 
-			console.log(response.json());
+			// console.log('response: ', response);
 			const data = await response.json();
-			console.log(data);
+			// console.log('data; ', data);
 
-			if (!response.ok || !data.success) {
+			if (!response.ok || !data.status) {
 				console.log(data.error);
 
 				setStatus('error');
@@ -71,6 +82,7 @@ const ContactForm: React.FC = () => {
 			setStatus('success');
 			form.reset();
 		} catch (err: any) {
+			console.log(err);
 			setStatus('error');
 			setStatus('Hubo un problema al enviar tu mensaje. Por favor, revisa tu conexión a internet o inténtalo de nuevo más tarde.');
 		} finally {
