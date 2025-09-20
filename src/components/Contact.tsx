@@ -52,30 +52,28 @@ const ContactForm: React.FC = () => {
 			// 	return;
 			// }
 
-			// const response = await fetch('http://localhost:3001/nacho', {
+			// const response = await fetch('http://localhost:3001/api/postEmail', {
 			// 	method: 'POST',
 			// 	headers: { 'Content-Type': 'application/json' },
 			// 	body: JSON.stringify(payload),
 			// });
-
-			// const response = await fetch('http://localhost:3001/api/send-email', {
-			// 	method: 'POST',
-			// 	headers: { 'Content-Type': 'application/json' },
-			// 	body: JSON.stringify(payload),
-			// });
-			const response = await fetch('https://ignaciolopezc-backend.vercel.app/api/send-email', {
+			const response = await fetch('https://emails-nu.vercel.app/api/postEmail', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(payload),
 			});
+			// const response = await fetch('https://ignaciolopezc-backend.vercel.app/test', {
+			// 	method: 'POST',
+			// 	headers: { 'Content-Type': 'application/json' },
+			// 	body: JSON.stringify(payload),
+			// });
 
-			// console.log('response: ', response);
+			console.log('response: ', response);
 			const data = await response.json();
-			// console.log('data; ', data);
+			console.log('data; ', data);
 
-			if (!response.ok || !data.status) {
+			if (!response.ok || !data.success) {
 				console.log(data.error);
-
 				setStatus('error');
 				throw new Error(`${data.error || 'Error en el envío'}${data.details ? `: ${data.details.join(', ')}` : ''}`);
 			}
