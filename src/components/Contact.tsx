@@ -44,29 +44,16 @@ const ContactForm: React.FC = () => {
 				message: formData.get('message'),
 			};
 
-			// // Validación antes de enviar
-			// const errors = validate(payload);
-			// if (errors.length > 0) {
-			// 	setStatus(errors[0]);
-			// 	setLoading(false);
-			// 	return;
-			// }
-
-			// const response = await fetch('http://localhost:3001/api/postEmail', {
+			// const response = await fetch('http://localhost:3001/api/sendEmail', {
 			// 	method: 'POST',
 			// 	headers: { 'Content-Type': 'application/json' },
 			// 	body: JSON.stringify(payload),
 			// });
-			const response = await fetch('https://emails-nu.vercel.app/api/postEmail', {
+			const response = await fetch('https://emails-nu.vercel.app/api/sendEmail', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(payload),
 			});
-			// const response = await fetch('https://ignaciolopezc-backend.vercel.app/test', {
-			// 	method: 'POST',
-			// 	headers: { 'Content-Type': 'application/json' },
-			// 	body: JSON.stringify(payload),
-			// });
 
 			console.log('response: ', response);
 			const data = await response.json();
