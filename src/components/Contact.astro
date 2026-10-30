@@ -5,10 +5,10 @@ const accessKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
 const year = new Date().getFullYear();
 
 const links = [
-  { label: 'LinkedIn', detail: '/in/ignaciolopezcampos', href: SITE.linkedin, event: 'contacto-linkedin', external: true },
-  { label: 'GitHub', detail: '/ignaciolopezc', href: SITE.github, event: 'contacto-github', external: true },
-  { label: 'Correo', detail: SITE.email, href: `mailto:${SITE.email}`, event: 'contacto-correo', external: false },
-  { label: 'CV en PDF', detail: 'Ver CV', href: SITE.cv, event: 'contacto-cv', external: true },
+  { label: 'LinkedIn', detail: '/in/ignaciolopezcampos', href: SITE.linkedin, external: true },
+  { label: 'GitHub', detail: '/ignaciolopezc', href: SITE.github, external: true },
+  { label: 'Correo', detail: SITE.email, href: `mailto:${SITE.email}`, external: false },
+  { label: 'CV en PDF', detail: 'Ver CV', href: SITE.cv, external: true },
 ];
 
 const field = 'rounded-[10px] border border-line bg-soft p-3 text-[15px] text-ink placeholder:text-subtle';
@@ -25,7 +25,6 @@ const field = 'rounded-[10px] border border-line bg-soft p-3 text-[15px] text-in
             <a
               href={link.href}
               class="flex justify-between gap-4 border-t border-[#d5d0c5] py-3.5 text-ink hover:text-accent"
-              data-umami-event={link.event}
               {...(link.external ? { target: '_blank', rel: 'noopener' } : {})}
             >
               <span>{link.label}</span>
@@ -69,7 +68,7 @@ const field = 'rounded-[10px] border border-line bg-soft p-3 text-[15px] text-in
         <label for="c-mensaje" class="text-sm font-medium">¿Qué proceso quieres mejorar?</label>
         <textarea id="c-mensaje" name="message" rows="5" required placeholder="Ej.: conciliación bancaria entre SAP y el banco" class:list={[field, 'resize-y']}></textarea>
       </div>
-      <button type="submit" class="btn btn-primary cursor-pointer border-0 text-base sm:col-span-2" data-umami-event="contacto-formulario">Enviar mensaje</button>
+      <button type="submit" class="btn btn-primary cursor-pointer border-0 text-base sm:col-span-2">Enviar mensaje</button>
       <p class="form-status m-0 text-center text-sm sm:col-span-2" role="status" aria-live="polite"></p>
       <p class="m-0 text-center text-[13px] text-muted sm:col-span-2">Tus datos solo se usan para responderte.</p>
     </form>
