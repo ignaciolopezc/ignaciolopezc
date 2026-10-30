@@ -21,7 +21,7 @@ export const NAV = [
 ];
 
 export const KPIS = [
-  { value: '+200', label: 'automatizaciones' },
+  { value: '+113', label: 'automatizaciones' },
   { value: '+30', label: 'proyectos' },
 ];
 
