@@ -1,6 +1,6 @@
 interface ImportMetaEnv {
-  readonly API_RESEND: string;
-  // more env variables...
+  /** Access key pública de Web3Forms para el formulario de contacto. */
+  readonly PUBLIC_WEB3FORMS_KEY?: string;
 }
 
 interface ImportMeta {

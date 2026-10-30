@@ -1,0 +1,148 @@
+---
+import { SITE } from '@data/site';
+
+const accessKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
+const year = new Date().getFullYear();
+
+const links = [
+  { label: 'LinkedIn', detail: '/in/ignaciolopezcampos', href: SITE.linkedin, event: 'contacto-linkedin', external: true },
+  { label: 'GitHub', detail: '/ignaciolopezc', href: SITE.github, event: 'contacto-github', external: true },
+  { label: 'Correo', detail: SITE.email, href: `mailto:${SITE.email}`, event: 'contacto-correo', external: false },
+  { label: 'CV en PDF', detail: 'Ver CV', href: SITE.cv, event: 'contacto-cv', external: true },
+];
+
+const field = 'rounded-[10px] border border-line bg-soft p-3 text-[15px] text-ink placeholder:text-subtle';
+---
+
+<section id="contacto" class="border-t border-line bg-band">
+  <div class="wrap section flex flex-wrap gap-x-18 gap-y-14">
+    <div class="flex-[1_1_400px]">
+      <p class="eyebrow">09 — Contacto</p>
+      <h2 class="h2 lg:text-[52px]!">¿Tienes un proceso que <span class="serif">mejorar</span>? Conversemos.</h2>
+      <ul class="mt-8 mb-0 list-none border-b border-[#d5d0c5] p-0 text-[15px]">
+        {links.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              class="flex justify-between gap-4 border-t border-[#d5d0c5] py-3.5 text-ink hover:text-accent"
+              data-umami-event={link.event}
+              {...(link.external ? { target: '_blank', rel: 'noopener' } : {})}
+            >
+              <span>{link.label}</span>
+              <span class="font-mono text-xs break-all text-muted">{link.detail} ↗</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <form
+      id="form-contacto"
+      class="grid flex-[1_1_440px] grid-cols-1 gap-4 rounded-[20px] border border-line bg-surface p-5 sm:grid-cols-2 sm:p-7"
+      action="https://api.web3forms.com/submit"
+      method="POST"
+      data-access-key={accessKey}
+      data-email={SITE.email}
+    >
+      <input type="hidden" name="access_key" value={accessKey} />
+      <input type="hidden" name="subject" value="Nuevo contacto desde ignaciolopezc.cl" />
+      <input type="hidden" name="from_name" value="Web ignaciolopezc.cl" />
+      <input type="checkbox" name="botcheck" class="hidden" style="display: none" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+      <div class="flex flex-col gap-1.5">
+        <label for="c-nombre" class="text-sm font-medium">Nombre</label>
+        <input id="c-nombre" name="name" type="text" required autocomplete="name" placeholder="Tu nombre" class={field} />
+      </div>
+      <div class="flex flex-col gap-1.5">
+        <label for="c-empresa" class="text-sm font-medium">Empresa</label>
+        <input id="c-empresa" name="company" type="text" autocomplete="organization" placeholder="Nombre de la empresa" class={field} />
+      </div>
+      <div class="flex flex-col gap-1.5">
+        <label for="c-correo" class="text-sm font-medium">Correo electrónico</label>
+        <input id="c-correo" name="email" type="email" required autocomplete="email" placeholder="nombre@empresa.cl" class={field} />
+      </div>
+      <div class="flex flex-col gap-1.5">
+        <label for="c-telefono" class="text-sm font-medium">Teléfono (opcional)</label>
+        <input id="c-telefono" name="phone" type="tel" autocomplete="tel" placeholder="+56 9 1234 5678" class={field} />
+      </div>
+      <div class="flex flex-col gap-1.5 sm:col-span-2">
+        <label for="c-mensaje" class="text-sm font-medium">¿Qué proceso quieres mejorar?</label>
+        <textarea id="c-mensaje" name="message" rows="5" required placeholder="Ej.: conciliación bancaria entre SAP y el banco" class:list={[field, 'resize-y']}></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary cursor-pointer border-0 text-base sm:col-span-2" data-umami-event="contacto-formulario">Enviar mensaje</button>
+      <p class="form-status m-0 text-center text-sm sm:col-span-2" role="status" aria-live="polite"></p>
+      <p class="m-0 text-center text-[13px] text-muted sm:col-span-2">Tus datos solo se usan para responderte.</p>
+    </form>
+  </div>
+
+  <footer class="wrap flex flex-wrap items-center justify-between gap-3 border-t border-[#d5d0c5] py-10 text-sm text-muted">
+    <span>© {year} {SITE.name}</span>
+    <a href="#inicio" class="btn btn-secondary px-4.5! py-2.5! text-sm">Volver al inicio ↑</a>
+  </footer>
+</section>
+
+<script>
+  const form = document.getElementById('form-contacto') as HTMLFormElement | null;
+
+  if (form) {
+    const status = form.querySelector<HTMLElement>('.form-status')!;
+    const button = form.querySelector<HTMLButtonElement>('button[type="submit"]')!;
+    const email = form.dataset.email ?? '';
+    const hasKey = Boolean(form.dataset.accessKey);
+
+    const show = (message: string, tone: 'info' | 'ok' | 'error', withMail = false) => {
+      status.textContent = message;
+      status.style.color = tone === 'error' ? '#a12d2d' : tone === 'ok' ? '#1f6b62' : '#5b5f66';
+      if (withMail) {
+        status.append(' ');
+        const link = document.createElement('a');
+        link.href = `mailto:${email}`;
+        link.textContent = email;
+        status.append(link, '.');
+      }
+    };
+
+    // Sin access key (por ejemplo, en una vista previa sin la variable) se ofrece el correo
+    const mailtoFallback = (data: FormData) => {
+      const body = [
+        `Nombre: ${data.get('name') ?? ''}`,
+        `Empresa: ${data.get('company') ?? ''}`,
+        `Correo: ${data.get('email') ?? ''}`,
+        `Teléfono: ${data.get('phone') ?? ''}`,
+        '',
+        String(data.get('message') ?? ''),
+      ].join('\n');
+      window.location.href = `mailto:${email}?subject=${encodeURIComponent('Contacto desde ignaciolopezc.cl')}&body=${encodeURIComponent(body)}`;
+      show('Se abrirá tu programa de correo. Si no se abre, escríbeme a', 'info', true);
+    };
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const data = new FormData(form);
+      if (data.get('botcheck')) return;
+
+      if (!hasKey) {
+        mailtoFallback(data);
+        return;
+      }
+
+      button.disabled = true;
+      show('Enviando…', 'info');
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(Object.fromEntries(data)),
+        });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok || !result.success) throw new Error(result.message || response.statusText);
+        form.reset();
+        show('¡Gracias! Recibí tu mensaje y te responderé por correo.', 'ok');
+      } catch {
+        show('No se pudo enviar el mensaje. Escríbeme directamente a', 'error', true);
+      } finally {
+        button.disabled = false;
+      }
+    });
+  }
+</script>

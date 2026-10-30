@@ -28,7 +28,7 @@ Dentro de mi carrera profesional como Consultor BPC estuve en grandes empresas c
 
 [![GMAIL](https://img.shields.io/badge/Gmail-ignaciolopezc@gmail.com-D14836?style=for-the-badge&logo=Gmail&logoColor=white&labelColor=101010)]()
 
-[![WEB](https://img.shields.io/badge/WEB-www.Ignaciolopezc.cl-0077B5?style=for-the-badge&logo=CLion&logoColor=white&labelColor=101010)](https://ignaciolopezcampos.cl/)
+[![WEB](https://img.shields.io/badge/WEB-www.Ignaciolopezc.cl-0077B5?style=for-the-badge&logo=CLion&logoColor=white&labelColor=101010)](https://ignaciolopezc.cl/)
 
 [![GITHUB](https://img.shields.io/badge/github-Ignaciolopezc-0077B5?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/ignaciolopezc)
 

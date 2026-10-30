@@ -1,0 +1,19 @@
+---
+import { SERVICES } from '@data/site';
+---
+
+<section id="servicios" class="bg-bg">
+  <div class="wrap section">
+    <p class="eyebrow">02 — Servicios</p>
+    <h2 class="h2">Cómo puedo ayudarte.</h2>
+    <div class="mt-12 grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-4">
+      {SERVICES.map((service) => (
+        <article class="card flex flex-col gap-2.5 rounded-[18px] border border-line bg-surface p-7">
+          <h3 class="text-[19px]">{service.title}</h3>
+          <p class="m-0 text-[15px] text-muted">{service.text}</p>
+          <p class="mt-auto mb-0 pt-3 font-mono text-xs text-accent-deep">→ {service.fit}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

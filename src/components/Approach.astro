@@ -1,0 +1,51 @@
+---
+import { COMPARISON, PILLARS } from '@data/site';
+---
+
+<div class="bg-surface">
+  <section id="enfoque" class="wrap pt-28 pb-18">
+    <div class="flex flex-wrap items-end gap-x-18 gap-y-8">
+      <div class="flex-[1_1_460px]">
+        <p class="eyebrow">01 — Enfoque</p>
+        <h2 class="h2">El bot es solo una <span class="serif">parte</span> del trabajo.</h2>
+      </div>
+      <p class="m-0 flex-[1_1_420px] text-text">
+        Al sumarme a tu equipo no recibes solo automatizaciones. Recibes procesos más claros, aplicaciones que conversan entre sí y una forma de trabajar que sigue funcionando cuando el proyecto termina.
+      </p>
+    </div>
+
+    <ol class="mt-14 mb-0 grid list-none grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-px overflow-hidden rounded-[18px] border border-line bg-line p-0">
+      {PILLARS.map((pillar, i) => (
+        <li class="bg-surface p-7">
+          <p class="m-0 font-mono text-xs text-subtle">{String(i + 1).padStart(2, '0')}</p>
+          <h3 class="mt-3.5 mb-2 text-lg">{pillar.title}</h3>
+          <p class="m-0 text-[15px] text-muted">{pillar.text}</p>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section aria-label="Comparación" class="wrap pb-28">
+    <div class="flex flex-wrap gap-4">
+      <div class="flex-[1_1_380px] rounded-[18px] bg-[#f4f6f7] p-7 sm:p-9">
+        <p class="mt-0 mb-5 font-mono text-xs tracking-[0.08em] text-muted">SI SOLO CONTRATAS UN BOT</p>
+        <ul class="m-0 flex list-none flex-col gap-3.5 p-0 text-base text-text">
+          {COMPARISON.bot.map((item) => (
+            <li class="flex gap-3"><span aria-hidden="true" class="text-[#8a979e]">—</span>{item}</li>
+          ))}
+        </ul>
+      </div>
+      <div class="flex-[1_1_380px] rounded-[18px] bg-accent-soft p-7 text-ink sm:p-9">
+        <p class="mt-0 mb-5 font-mono text-xs tracking-[0.08em] text-accent">SI ME SUMAS A TU EQUIPO</p>
+        <ul class="m-0 flex list-none flex-col gap-3.5 p-0 text-base">
+          {COMPARISON.team.map((item) => (
+            <li class="flex gap-3">
+              <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="mt-[3px] flex-none text-accent"><path d="M5 12l5 5 9-10"></path></svg>
+              {item}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>

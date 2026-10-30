@@ -1,0 +1,76 @@
+---
+import { SITE } from '@data/site';
+import { calculateYears } from '@utils/dateUtils';
+
+interface Props {
+  title?: string;
+  description?: string;
+  noindex?: boolean;
+}
+
+const years = calculateYears();
+const {
+  title = `${SITE.name} | Consultor en procesos y automatización RPA`,
+  description = `Ordeno, conecto y automatizo procesos con UiPath, Automation Anywhere y Power Automate. Más de ${years} años de consultoría en Chile.`,
+  noindex = false,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, SITE.url).href;
+const ogImage = new URL('/og-image.png', SITE.url).href;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Person',
+      '@id': `${SITE.url}/#persona`,
+      name: SITE.name,
+      jobTitle: SITE.jobTitle,
+      url: SITE.url,
+      email: `mailto:${SITE.email}`,
+      sameAs: [SITE.linkedin, SITE.github],
+    },
+    {
+      '@type': 'ProfessionalService',
+      '@id': `${SITE.url}/#servicio`,
+      name: `${SITE.name}, consultoría en procesos y automatización`,
+      url: SITE.url,
+      areaServed: { '@type': 'Country', name: 'Chile' },
+      founder: { '@id': `${SITE.url}/#persona` },
+      knowsAbout: ['RPA', 'UiPath', 'Automation Anywhere', 'Power Automate', 'SAP', 'Mejora de procesos'],
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Servicios',
+        itemListElement: [
+          'Diagnóstico y rediseño de procesos',
+          'Integración y automatización',
+          'Estandarización de la operación RPA',
+          'Soporte y mejora continua',
+        ].map((name) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name } })),
+      },
+    },
+  ],
+};
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex" />}
+
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="es_CL" />
+<meta property="og:site_name" content={SITE.name} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={`${SITE.name}: Automatizo procesos, no solo tareas.`} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

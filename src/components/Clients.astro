@@ -1,0 +1,57 @@
+---
+import { Image } from 'astro:assets';
+import codelco from '@assets/logos/clients/codelco.webp';
+import amsa from '@assets/logos/clients/amsa.webp';
+import lasbambas from '@assets/logos/clients/lasbambas.webp';
+import candelaria from '@assets/logos/clients/candelaria.webp';
+import bupa from '@assets/logos/clients/bupa.webp';
+import larrainvial from '@assets/logos/clients/larrainvial.webp';
+import tecnofast from '@assets/logos/clients/tecnofast.webp';
+import bash from '@assets/logos/clients/bash.webp';
+
+const logos = [
+  { src: codelco, alt: 'Codelco' },
+  { src: amsa, alt: 'Antofagasta Minerals' },
+  { src: lasbambas, alt: 'Minera Las Bambas' },
+  { src: candelaria, alt: 'Minera Candelaria' },
+  { src: bupa, alt: 'Bupa' },
+  { src: larrainvial, alt: 'LarrainVial' },
+  { src: tecnofast, alt: 'Tecno Fast' },
+  { src: bash, alt: 'Bash' },
+];
+---
+
+<section aria-label="Clientes" class="border-y border-line bg-band">
+  <div class="wrap py-9">
+    <p class="mt-0 mb-6 text-center text-sm text-muted">Empresas con las que he trabajado</p>
+    <ul class="logos m-0 flex list-none flex-wrap items-center justify-center gap-x-6 gap-y-4.5 p-0 lg:flex-nowrap">
+      {logos.map((logo) => (
+        <li class="flex">
+          <Image src={logo.src} alt={logo.alt} height={60} format="webp" decoding="async" loading="lazy" />
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<style>
+  .logos img {
+    width: 88px;
+    height: 30px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    filter: grayscale(1);
+    opacity: 0.6;
+    transition: opacity 0.2s, filter 0.2s;
+  }
+  .logos img:hover {
+    filter: none;
+    opacity: 1;
+  }
+  @media (max-width: 767px) {
+    .logos img {
+      width: 64px;
+      height: 26px;
+    }
+  }
+</style>
