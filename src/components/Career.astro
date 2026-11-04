@@ -1,0 +1,41 @@
+---
+import { CERTIFICATIONS, EDUCATION, EXPERIENCE } from '@data/site';
+---
+
+<div class="bg-surface">
+  <section id="trayectoria" class="wrap section flex flex-col gap-12">
+    <div class="min-w-0">
+      <p class="eyebrow">05 — Trayectoria</p>
+      <h2 class="h2 mb-10">Experiencia.</h2>
+      <ol class="m-0 list-none border-b border-line p-0">
+        {EXPERIENCE.map((job) => (
+          <li class="grid gap-1 border-t border-line py-5 md:grid-cols-[130px_minmax(0,1fr)] md:gap-6">
+            <p class="m-0 text-[15px] text-muted">{job.period}</p>
+            <div>
+              <h3 class="text-lg">{job.role}</h3>
+              <p class="mt-1 mb-0 text-base text-text">{job.text}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+
+    <div class="flex flex-wrap gap-5">
+      <div class="flex-[1_1_320px] rounded-2xl bg-soft p-7">
+        <h3 class="mb-4 text-lg">Formación</h3>
+        {EDUCATION.map((item, i) => (
+          <Fragment>
+            <p class="m-0 text-base font-semibold">{item.title}</p>
+            <p class:list={['mt-0 text-[15px] text-muted', i < EDUCATION.length - 1 ? 'mb-3' : 'mb-0']}>{item.detail}</p>
+          </Fragment>
+        ))}
+      </div>
+      <div class="flex-[1_1_320px] rounded-2xl bg-soft p-7">
+        <h3 class="mb-4 text-lg">Certificaciones y cursos</h3>
+        <ul class="m-0 flex list-none flex-col gap-2 p-0 text-[15px] text-text">
+          {CERTIFICATIONS.map((item) => <li>{item}</li>)}
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
