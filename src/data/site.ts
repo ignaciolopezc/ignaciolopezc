@@ -13,7 +13,6 @@ export const SITE = {
 export const NAV = [
   { href: '#enfoque', label: 'Enfoque' },
   { href: '#servicios', label: 'Servicios' },
-  { href: '#casos', label: 'Casos' },
   { href: '#trayectoria', label: 'Trayectoria' },
   { href: '#faq', label: 'FAQ' },
 ];
@@ -77,33 +76,6 @@ export const SERVICES = [
     title: 'Soporte y mejora continua',
     text: 'Mantención de automatizaciones existentes, control de cambios en sprints y mejoras a medida que cambia el negocio.',
     fit: 'Si ya tienes bots en producción',
-  },
-];
-
-export const CASES = [
-  {
-    platform: 'UiPath',
-    client: 'Minera Las Bambas',
-    figure: '8',
-    figureLabel: 'reportes SAP R/3 automatizados',
-    title: 'Control de inventario automatizado',
-    text: 'Descarga, procesamiento y publicación por API de reportes SAP en un dashboard de control, con REFramework para asegurar cada ejecución.',
-  },
-  {
-    platform: 'Automation Anywhere 360',
-    client: 'Codelco · IBM',
-    figure: '3',
-    figureLabel: 'áreas financieras levantadas para SAP S/4HANA',
-    title: 'Finanzas y pago a proveedores',
-    text: 'Levantamiento y automatización de procesos de Finanzas, Contabilidad y Pago a Proveedores durante la migración a SAP S/4HANA, calendarizados en Control Room.',
-  },
-  {
-    platform: 'Power Automate',
-    client: 'Tecno Fast',
-    figure: '+50',
-    figureLabel: 'flujos estandarizados',
-    title: 'Procesos estandarizados e integrados',
-    text: 'Estandaricé más de 50 flujos e integré Power Automate con SAP Business One, Docuware y el Banco Central.',
   },
 ];
 
