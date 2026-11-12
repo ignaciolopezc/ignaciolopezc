@@ -14,6 +14,7 @@ export const NAV = [
   { href: '#enfoque', label: 'Enfoque' },
   { href: '#servicios', label: 'Servicios' },
   { href: '#trayectoria', label: 'Trayectoria' },
+  { href: '#herramientas', label: 'Herramientas' },
   { href: '#faq', label: 'FAQ' },
 ];
 
