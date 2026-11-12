@@ -7,16 +7,14 @@ export const SITE = {
   email: 'ignaciolopezc@gmail.com',
   linkedin: 'https://www.linkedin.com/in/ignaciolopezcampos',
   github: 'https://github.com/ignaciolopezc',
-  cv: '/cv-ignacio-lopez-campos.pdf',
   jobTitle: 'Consultor en procesos, integración y automatización',
 };
 
 export const NAV = [
   { href: '#enfoque', label: 'Enfoque' },
   { href: '#servicios', label: 'Servicios' },
-  { href: '#casos', label: 'Casos' },
-  { href: '#metodo', label: 'Cómo trabajo' },
   { href: '#trayectoria', label: 'Trayectoria' },
+  { href: '#herramientas', label: 'Herramientas' },
   { href: '#faq', label: 'FAQ' },
 ];
 
@@ -67,7 +65,7 @@ export const SERVICES = [
   },
   {
     title: 'Integración y automatización',
-    text: 'Bots en UiPath, Automation Anywhere o Power Automate conectados con SAP (ECC, S/4HANA, Business One), APIs y documentos.',
+    text: 'Bots en UiPath, Automation Anywhere o Power Automate conectados con SAP (ECC y S/4HANA), APIs y documentos.',
     fit: 'Si ya tienes procesos identificados',
   },
   {
@@ -80,40 +78,6 @@ export const SERVICES = [
     text: 'Mantención de automatizaciones existentes, control de cambios en sprints y mejoras a medida que cambia el negocio.',
     fit: 'Si ya tienes bots en producción',
   },
-];
-
-export const CASES = [
-  {
-    platform: 'UiPath',
-    client: 'Minera Las Bambas',
-    figure: '8',
-    figureLabel: 'reportes SAP R/3 automatizados',
-    title: 'Control de inventario automatizado',
-    text: 'Descarga, procesamiento y publicación por API de reportes SAP en un dashboard de control, con REFramework para asegurar cada ejecución.',
-  },
-  {
-    platform: 'Automation Anywhere 360',
-    client: 'Codelco · IBM',
-    figure: '3',
-    figureLabel: 'áreas financieras levantadas para SAP S/4HANA',
-    title: 'Finanzas y pago a proveedores',
-    text: 'Levantamiento y automatización de procesos de Finanzas, Contabilidad y Pago a Proveedores durante la migración a SAP S/4HANA, calendarizados en Control Room.',
-  },
-  {
-    platform: 'Power Automate',
-    client: 'Tecno Fast',
-    figure: '+50',
-    figureLabel: 'flujos estandarizados',
-    title: 'Procesos estandarizados e integrados',
-    text: 'Estandaricé más de 50 flujos e integré Power Automate con SAP Business One, Docuware y el Banco Central.',
-  },
-];
-
-export const METHOD = [
-  { step: 'Levantar', text: 'Entrevistas con las áreas y observación del flujo real de trabajo.' },
-  { step: 'Mejorar y estandarizar', text: 'Modelado del proceso, eliminación de pasos y reglas acordadas con el negocio.' },
-  { step: 'Conectar y automatizar', text: 'Integraciones y bots en sprints, con estándares RPA para escalar y mantener.' },
-  { step: 'Medir y transferir', text: 'KPIs antes y después, documentación y traspaso a tu equipo.' },
 ];
 
 export const EXPERIENCE = [
@@ -150,8 +114,8 @@ export const EXPERIENCE = [
 ];
 
 export const EDUCATION = [
-  { title: 'Ingeniería en Informática', detail: 'Duoc UC · 2015' },
-  { title: 'Analista Programador Computacional', detail: 'Duoc UC · 2009' },
+  { title: 'Titulado de Ingeniería en Informática', detail: 'Duoc UC · 2015' },
+  { title: 'Titulado de Analista Programador Computacional', detail: 'Duoc UC · 2009' },
 ];
 
 export const CERTIFICATIONS = [
@@ -165,7 +129,7 @@ export const CERTIFICATIONS = [
 export const TOOLS = [
   { group: 'Automatización', items: 'UiPath · Automation Anywhere 360 · Power Automate · Python' },
   { group: 'ERP e integración', items: 'SAP ECC y S/4HANA · Business One · BPC · APIs REST · Docuware' },
-  { group: 'Datos', items: 'SQL Server · PostgreSQL · Power BI · Excel' },
+  { group: 'Datos', items: 'SQL Server · PostgreSQL · Power BI · Excel · Python · JavaScript' },
   { group: 'Gestión', items: 'Scrum · Jira · Notion' },
 ];
 
