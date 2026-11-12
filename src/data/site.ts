@@ -150,8 +150,8 @@ export const EXPERIENCE = [
 ];
 
 export const EDUCATION = [
-  { title: 'Ingeniería en Informática', detail: 'Duoc UC · 2015' },
-  { title: 'Analista Programador Computacional', detail: 'Duoc UC · 2009' },
+  { title: 'Titulado de Ingeniería en Informática', detail: 'Duoc UC · 2015' },
+  { title: 'Titulado de Analista Programador Computacional', detail: 'Duoc UC · 2009' },
 ];
 
 export const CERTIFICATIONS = [
