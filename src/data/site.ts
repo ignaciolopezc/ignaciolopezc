@@ -7,7 +7,6 @@ export const SITE = {
   email: 'ignaciolopezc@gmail.com',
   linkedin: 'https://www.linkedin.com/in/ignaciolopezcampos',
   github: 'https://github.com/ignaciolopezc',
-  cv: '/cv-ignacio-lopez-campos.pdf',
   jobTitle: 'Consultor en procesos, integración y automatización',
 };
 
