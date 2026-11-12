@@ -157,7 +157,7 @@ export const CERTIFICATIONS = [
 export const TOOLS = [
   { group: 'Automatización', items: 'UiPath · Automation Anywhere 360 · Power Automate · Python' },
   { group: 'ERP e integración', items: 'SAP ECC y S/4HANA · Business One · BPC · APIs REST · Docuware' },
-  { group: 'Datos', items: 'SQL Server · PostgreSQL · Power BI · Excel' },
+  { group: 'Datos', items: 'SQL Server · PostgreSQL · Power BI · Excel · Python · JavaScript' },
   { group: 'Gestión', items: 'Scrum · Jira · Notion' },
 ];
 
