@@ -67,7 +67,7 @@ export const SERVICES = [
   },
   {
     title: 'Integración y automatización',
-    text: 'Bots en UiPath, Automation Anywhere o Power Automate conectados con SAP (ECC, S/4HANA, Business One), APIs y documentos.',
+    text: 'Bots en UiPath, Automation Anywhere o Power Automate conectados con SAP (ECC y S/4HANA), APIs y documentos.',
     fit: 'Si ya tienes procesos identificados',
   },
   {
