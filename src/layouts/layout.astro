@@ -23,9 +23,12 @@ const { title, description, noindex } = Astro.props;
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <SEO title={title} description={description} noindex={noindex} />
-    <Analytics />
   </head>
   <body>
     <slot />
+    <!-- Va al final del body: su etiqueta <vercel-analytics> dentro del <head>
+         hace que el navegador cierre el head antes de tiempo y el CSS queda
+         en el body, lo que muestra la página sin estilos un instante. -->
+    <Analytics />
   </body>
 </html>
