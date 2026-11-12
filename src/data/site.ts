@@ -15,7 +15,6 @@ export const NAV = [
   { href: '#enfoque', label: 'Enfoque' },
   { href: '#servicios', label: 'Servicios' },
   { href: '#casos', label: 'Casos' },
-  { href: '#metodo', label: 'Cómo trabajo' },
   { href: '#trayectoria', label: 'Trayectoria' },
   { href: '#faq', label: 'FAQ' },
 ];
@@ -107,13 +106,6 @@ export const CASES = [
     title: 'Procesos estandarizados e integrados',
     text: 'Estandaricé más de 50 flujos e integré Power Automate con SAP Business One, Docuware y el Banco Central.',
   },
-];
-
-export const METHOD = [
-  { step: 'Levantar', text: 'Entrevistas con las áreas y observación del flujo real de trabajo.' },
-  { step: 'Mejorar y estandarizar', text: 'Modelado del proceso, eliminación de pasos y reglas acordadas con el negocio.' },
-  { step: 'Conectar y automatizar', text: 'Integraciones y bots en sprints, con estándares RPA para escalar y mantener.' },
-  { step: 'Medir y transferir', text: 'KPIs antes y después, documentación y traspaso a tu equipo.' },
 ];
 
 export const EXPERIENCE = [
